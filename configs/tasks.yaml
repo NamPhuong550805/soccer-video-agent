@@ -1,0 +1,65 @@
+# paper_id / name / branch / n_clips phai khop voi TASK_META trong src/sva/constants.py
+tasks:
+  q8:
+    paper_id: Q7
+    name: Camera Status Switching
+    branch: B
+    n_clips: 1
+    claim_type: categorical
+    n_frames: 8
+
+  q9:
+    paper_id: Q8
+    name: Replay Grounding
+    branch: C
+    n_clips: 5          # clip dau la replay, 4 clip sau la ung vien
+    claim_type: positional
+    n_frames: 12
+
+  q10:
+    paper_id: Q9
+    name: Action Classification
+    branch: A
+    n_clips: 1
+    claim_type: categorical
+    n_frames: 8
+
+  q11:
+    paper_id: Q10
+    name: Commentary Generation
+    branch: A
+    n_clips: 1
+    claim_type: categorical
+    n_frames: 8
+
+  q13:
+    paper_id: Q12
+    name: Jersey Color Relevant QA
+    branch: B
+    n_clips: 1
+    claim_type: categorical
+    n_frames: 8
+
+  q14:
+    paper_id: Q13
+    name: Multi-view Foul Recognition
+    branch: C
+    n_clips: null       # 2-4 goc quay
+    claim_type: mixed   # categorical, rieng severity/offence la ordinal
+    n_frames_total: 24
+
+split_unit:
+  q8: material_path
+  q9: match_name
+  q10: material_path
+  q11: material_path
+  q13: material_path
+  q14: action_id
+
+eval_size:
+  q8: 400
+  q9: 400
+  q10: 400
+  q11: 400
+  q13: 700
+  q14: 276

@@ -1,0 +1,221 @@
+{
+  "passed": true,
+  "tasks": {
+    "q8": {
+      "task_id": "q8",
+      "n": 400,
+      "n_options": {
+        "4": 400
+      },
+      "n_clips": {
+        "1": 400
+      },
+      "openA_types": {
+        "str": 400
+      },
+      "n_files": 400,
+      "n_declared": 400,
+      "noncontiguous": [],
+      "closeA_out_of_range": [],
+      "openA_empty": [],
+      "missing_files": [],
+      "checks": {
+        "count": true,
+        "keys": true,
+        "options": true,
+        "materials": true,
+        "openA_type": true
+      }
+    },
+    "q9": {
+      "task_id": "q9",
+      "n": 400,
+      "n_options": {
+        "4": 400
+      },
+      "n_clips": {
+        "5": 400
+      },
+      "openA_types": {
+        "list": 400
+      },
+      "n_files": 1989,
+      "n_declared": 2000,
+      "noncontiguous": [],
+      "closeA_out_of_range": [],
+      "openA_empty": [],
+      "missing_files": [],
+      "checks": {
+        "count": true,
+        "keys": true,
+        "options": true,
+        "materials": true,
+        "openA_type": true
+      }
+    },
+    "q10": {
+      "task_id": "q10",
+      "n": 1000,
+      "n_options": {
+        "4": 1000
+      },
+      "n_clips": {
+        "1": 1000
+      },
+      "openA_types": {
+        "str": 1000
+      },
+      "n_files": 1000,
+      "n_declared": 1000,
+      "noncontiguous": [],
+      "closeA_out_of_range": [],
+      "openA_empty": [],
+      "missing_files": [],
+      "checks": {
+        "count": true,
+        "keys": true,
+        "options": true,
+        "materials": true,
+        "openA_type": true
+      }
+    },
+    "q11": {
+      "task_id": "q11",
+      "n": 1000,
+      "n_options": {
+        "4": 1000
+      },
+      "n_clips": {
+        "1": 1000
+      },
+      "openA_types": {
+        "str": 1000
+      },
+      "n_files": 1000,
+      "n_declared": 1000,
+      "noncontiguous": [],
+      "closeA_out_of_range": [],
+      "openA_empty": [],
+      "missing_files": [],
+      "checks": {
+        "count": true,
+        "keys": true,
+        "options": true,
+        "materials": true,
+        "openA_type": true
+      }
+    },
+    "q13": {
+      "task_id": "q13",
+      "n": 700,
+      "n_options": {
+        "4": 700
+      },
+      "n_clips": {
+        "1": 700
+      },
+      "openA_types": {
+        "str": 700
+      },
+      "n_files": 700,
+      "n_declared": 700,
+      "noncontiguous": [],
+      "closeA_out_of_range": [],
+      "openA_empty": [
+        225,
+        297,
+        484,
+        688
+      ],
+      "missing_files": [],
+      "checks": {
+        "count": true,
+        "keys": true,
+        "options": true,
+        "materials": true,
+        "openA_type": true
+      }
+    },
+    "q14": {
+      "task_id": "q14",
+      "n": 300,
+      "n_options": {
+        "2": 174,
+        "3": 53,
+        "4": 73
+      },
+      "n_clips": {
+        "2": 219,
+        "3": 71,
+        "4": 10
+      },
+      "openA_types": {
+        "str": 300
+      },
+      "n_files": 434,
+      "n_declared": 691,
+      "noncontiguous": [
+        1,
+        7,
+        29,
+        47,
+        54,
+        107,
+        117,
+        141,
+        142,
+        166,
+        169,
+        176,
+        217,
+        221,
+        242,
+        258,
+        260,
+        274
+      ],
+      "closeA_out_of_range": [
+        6,
+        8,
+        41,
+        45,
+        46,
+        53,
+        70,
+        72,
+        77,
+        83,
+        86,
+        98,
+        115,
+        121,
+        128,
+        140,
+        145,
+        148,
+        160,
+        167,
+        168,
+        180,
+        191,
+        203,
+        208,
+        223,
+        255,
+        266,
+        280,
+        281,
+        285
+      ],
+      "openA_empty": [],
+      "missing_files": [],
+      "checks": {
+        "count": true,
+        "keys": true,
+        "options": true,
+        "materials": true,
+        "openA_type": true
+      }
+    }
+  }
+}

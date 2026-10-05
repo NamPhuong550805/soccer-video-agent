@@ -1,0 +1,482 @@
+{
+  "q8": {
+    "task_id": "q8",
+    "n_total": 400,
+    "counts": {
+      "OK": 400
+    },
+    "records": [],
+    "drop_indices": [],
+    "fix_map": {}
+  },
+  "q9": {
+    "task_id": "q9",
+    "n_total": 400,
+    "counts": {
+      "OPENA_IS_LIST": 400
+    },
+    "records": [],
+    "drop_indices": [],
+    "fix_map": {}
+  },
+  "q10": {
+    "task_id": "q10",
+    "n_total": 1000,
+    "counts": {
+      "OK": 1000
+    },
+    "records": [],
+    "drop_indices": [],
+    "fix_map": {}
+  },
+  "q11": {
+    "task_id": "q11",
+    "n_total": 1000,
+    "counts": {
+      "OK": 1000
+    },
+    "records": [],
+    "drop_indices": [],
+    "fix_map": {}
+  },
+  "q13": {
+    "task_id": "q13",
+    "n_total": 700,
+    "counts": {
+      "OK": 695,
+      "INDEX_ERROR": 1,
+      "OPENA_EMPTY": 4
+    },
+    "records": [
+      {
+        "index": 163,
+        "category": "INDEX_ERROR",
+        "closeA": "O3",
+        "fixed": "O2",
+        "note": "openA='red', options={'O1': 'white', 'O2': 'red', 'O3': 'blue', 'O4': 'silver'}"
+      },
+      {
+        "index": 225,
+        "category": "OPENA_EMPTY",
+        "closeA": "O2",
+        "fixed": null,
+        "note": "openA='', options={'O1': 'blue', 'O2': 'purple', 'O3': 'white', 'O4': 'turquoise'}"
+      },
+      {
+        "index": 297,
+        "category": "OPENA_EMPTY",
+        "closeA": "O1",
+        "fixed": null,
+        "note": "openA='', options={'O1': 'purple', 'O2': 'blue', 'O3': 'teal', 'O4': 'white'}"
+      },
+      {
+        "index": 484,
+        "category": "OPENA_EMPTY",
+        "closeA": "O1",
+        "fixed": null,
+        "note": "openA='', options={'O1': 'brown', 'O2': 'black', 'O3': 'violet', 'O4': 'red'}"
+      },
+      {
+        "index": 688,
+        "category": "OPENA_EMPTY",
+        "closeA": "O2",
+        "fixed": null,
+        "note": "openA='', options={'O1': 'blue', 'O2': 'navy', 'O3': 'white', 'O4': 'lavender'}"
+      }
+    ],
+    "drop_indices": [],
+    "fix_map": {
+      "163": "O2"
+    }
+  },
+  "q14": {
+    "task_id": "q14",
+    "n_total": 300,
+    "counts": {
+      "OK": 251,
+      "OK_NONCONTIGUOUS": 18,
+      "UNRECOVERABLE": 24,
+      "RECOVERABLE": 7
+    },
+    "records": [
+      {
+        "index": 1,
+        "category": "OK_NONCONTIGUOUS",
+        "closeA": "O1",
+        "fixed": null,
+        "note": "openA='No', options={'O1': 'No', 'O3': 'Yes'}"
+      },
+      {
+        "index": 6,
+        "category": "UNRECOVERABLE",
+        "closeA": "O8",
+        "fixed": null,
+        "note": "openA='Tackling', options={'O1': 'Challenge', 'O2': 'St. tackling', 'O3': 'High leg', 'O4': 'Pushing'}"
+      },
+      {
+        "index": 7,
+        "category": "OK_NONCONTIGUOUS",
+        "closeA": "O1",
+        "fixed": null,
+        "note": "openA='No', options={'O1': 'No', 'O3': 'Yes'}"
+      },
+      {
+        "index": 8,
+        "category": "UNRECOVERABLE",
+        "closeA": "O8",
+        "fixed": null,
+        "note": "openA='Challenge', options={'O1': 'Holding', 'O2': 'Tackling', 'O3': 'Dive', 'O4': 'Pushing'}"
+      },
+      {
+        "index": 29,
+        "category": "OK_NONCONTIGUOUS",
+        "closeA": "O3",
+        "fixed": null,
+        "note": "openA='No', options={'O1': 'Yes', 'O3': 'No'}"
+      },
+      {
+        "index": 41,
+        "category": "RECOVERABLE",
+        "closeA": "O6",
+        "fixed": "O4",
+        "note": "openA='Standing tackling', options={'O1': 'Elbowing', 'O2': 'Holding', 'O3': 'Pushing', 'O4': 'St. tackling'}"
+      },
+      {
+        "index": 45,
+        "category": "UNRECOVERABLE",
+        "closeA": "O9",
+        "fixed": null,
+        "note": "openA='Standing tackling', options={'O1': 'Pushing', 'O2': 'Tackling', 'O3': 'Holding', 'O4': 'Elbowing'}"
+      },
+      {
+        "index": 46,
+        "category": "UNRECOVERABLE",
+        "closeA": "O6",
+        "fixed": null,
+        "note": "openA='Elbowing', options={'O1': 'High leg', 'O2': 'Tackling', 'O3': 'Holding', 'O4': 'Challenge'}"
+      },
+      {
+        "index": 47,
+        "category": "OK_NONCONTIGUOUS",
+        "closeA": "O1",
+        "fixed": null,
+        "note": "openA='No', options={'O1': 'No', 'O3': 'Yes'}"
+      },
+      {
+        "index": 53,
+        "category": "UNRECOVERABLE",
+        "closeA": "O7",
+        "fixed": null,
+        "note": "openA='High leg', options={'O1': 'Challenge', 'O2': 'Holding', 'O3': 'Tackling', 'O4': 'Pushing'}"
+      },
+      {
+        "index": 54,
+        "category": "OK_NONCONTIGUOUS",
+        "closeA": "O3",
+        "fixed": null,
+        "note": "openA='No', options={'O1': 'Yes', 'O3': 'No'}"
+      },
+      {
+        "index": 70,
+        "category": "RECOVERABLE",
+        "closeA": "O8",
+        "fixed": "O2",
+        "note": "openA='Standing tackling', options={'O1': 'Elbowing', 'O2': 'St. tackling', 'O3': 'Challenge', 'O4': 'Dive'}"
+      },
+      {
+        "index": 72,
+        "category": "UNRECOVERABLE",
+        "closeA": "O5",
+        "fixed": null,
+        "note": "openA='Challenge', options={'O1': 'Pushing', 'O2': 'High leg', 'O3': 'Tackling', 'O4': 'Dive'}"
+      },
+      {
+        "index": 77,
+        "category": "UNRECOVERABLE",
+        "closeA": "O5",
+        "fixed": null,
+        "note": "openA='No card', options={'O1': 'Yellow card or red card', 'O2': 'Yellow card', 'O3': 'Red card', 'O4': 'No card or yellow card'}"
+      },
+      {
+        "index": 83,
+        "category": "UNRECOVERABLE",
+        "closeA": "O5",
+        "fixed": null,
+        "note": "openA='No card', options={'O1': 'Yellow card', 'O2': 'No card or yellow card', 'O3': 'Red card', 'O4': 'Yellow card or red card'}"
+      },
+      {
+        "index": 86,
+        "category": "RECOVERABLE",
+        "closeA": "O9",
+        "fixed": "O2",
+        "note": "openA='Standing tackling', options={'O1': 'Holding', 'O2': 'St. tackling', 'O3': 'Tackling', 'O4': 'Pushing'}"
+      },
+      {
+        "index": 98,
+        "category": "UNRECOVERABLE",
+        "closeA": "O7",
+        "fixed": null,
+        "note": "openA='Standing tackling', options={'O1': 'Dive', 'O2': 'Tackling', 'O3': 'Challenge', 'O4': 'Holding'}"
+      },
+      {
+        "index": 107,
+        "category": "OK_NONCONTIGUOUS",
+        "closeA": "O3",
+        "fixed": null,
+        "note": "openA='No', options={'O2': 'Yes', 'O3': 'No'}"
+      },
+      {
+        "index": 115,
+        "category": "UNRECOVERABLE",
+        "closeA": "O7",
+        "fixed": null,
+        "note": "openA='Challenge', options={'O1': 'Dive', 'O2': 'Pushing', 'O3': 'Holding', 'O4': 'St. tackling'}"
+      },
+      {
+        "index": 117,
+        "category": "OK_NONCONTIGUOUS",
+        "closeA": "O1",
+        "fixed": null,
+        "note": "openA='No', options={'O1': 'No', 'O3': 'Yes'}"
+      },
+      {
+        "index": 121,
+        "category": "UNRECOVERABLE",
+        "closeA": "O7",
+        "fixed": null,
+        "note": "openA='Challenge', options={'O1': 'Holding', 'O2': 'High leg', 'O3': 'St. tackling', 'O4': 'Pushing'}"
+      },
+      {
+        "index": 128,
+        "category": "UNRECOVERABLE",
+        "closeA": "O8",
+        "fixed": null,
+        "note": "openA='Tackling', options={'O1': 'Elbowing', 'O2': 'High leg', 'O3': 'Challenge', 'O4': 'St. tackling'}"
+      },
+      {
+        "index": 140,
+        "category": "UNRECOVERABLE",
+        "closeA": "O5",
+        "fixed": null,
+        "note": "openA='No card', options={'O1': 'Red card', 'O2': 'No card or yellow card', 'O3': 'Yellow card', 'O4': 'Yellow card or red card'}"
+      },
+      {
+        "index": 141,
+        "category": "OK_NONCONTIGUOUS",
+        "closeA": "O2",
+        "fixed": null,
+        "note": "openA='No', options={'O2': 'No', 'O3': 'Yes'}"
+      },
+      {
+        "index": 142,
+        "category": "OK_NONCONTIGUOUS",
+        "closeA": "O3",
+        "fixed": null,
+        "note": "openA='No', options={'O1': 'Yes', 'O3': 'No'}"
+      },
+      {
+        "index": 145,
+        "category": "UNRECOVERABLE",
+        "closeA": "O6",
+        "fixed": null,
+        "note": "openA='Standing tackling', options={'O1': 'High leg', 'O2': 'Pushing', 'O3': 'Tackling', 'O4': 'Holding'}"
+      },
+      {
+        "index": 148,
+        "category": "RECOVERABLE",
+        "closeA": "O7",
+        "fixed": "O4",
+        "note": "openA='Standing tackling', options={'O1': 'Pushing', 'O2': 'High leg', 'O3': 'Challenge', 'O4': 'St. tackling'}"
+      },
+      {
+        "index": 160,
+        "category": "UNRECOVERABLE",
+        "closeA": "O5",
+        "fixed": null,
+        "note": "openA='Tackling', options={'O1': 'Challenge', 'O2': 'Elbowing', 'O3': 'Pushing', 'O4': 'Dive'}"
+      },
+      {
+        "index": 166,
+        "category": "OK_NONCONTIGUOUS",
+        "closeA": "O2",
+        "fixed": null,
+        "note": "openA='No', options={'O2': 'No', 'O3': 'Yes'}"
+      },
+      {
+        "index": 167,
+        "category": "UNRECOVERABLE",
+        "closeA": "O8",
+        "fixed": null,
+        "note": "openA='Tackling', options={'O1': 'Holding', 'O2': 'Challenge', 'O3': 'St. tackling', 'O4': 'Elbowing'}"
+      },
+      {
+        "index": 168,
+        "category": "UNRECOVERABLE",
+        "closeA": "O5",
+        "fixed": null,
+        "note": "openA='No card', options={'O1': 'No card or yellow card', 'O2': 'Yellow card or red card', 'O3': 'Yellow card', 'O4': 'Red card'}"
+      },
+      {
+        "index": 169,
+        "category": "OK_NONCONTIGUOUS",
+        "closeA": "O2",
+        "fixed": null,
+        "note": "openA='No', options={'O2': 'No', 'O3': 'Yes'}"
+      },
+      {
+        "index": 176,
+        "category": "OK_NONCONTIGUOUS",
+        "closeA": "O1",
+        "fixed": null,
+        "note": "openA='No', options={'O1': 'No', 'O3': 'Yes'}"
+      },
+      {
+        "index": 180,
+        "category": "UNRECOVERABLE",
+        "closeA": "O5",
+        "fixed": null,
+        "note": "openA='No card', options={'O1': 'Yellow card or red card', 'O2': 'Red card', 'O3': 'Yellow card', 'O4': 'No card or yellow card'}"
+      },
+      {
+        "index": 191,
+        "category": "UNRECOVERABLE",
+        "closeA": "O5",
+        "fixed": null,
+        "note": "openA='No card', options={'O1': 'Red card', 'O2': 'Yellow card or red card', 'O3': 'No card or yellow card', 'O4': 'Yellow card'}"
+      },
+      {
+        "index": 203,
+        "category": "RECOVERABLE",
+        "closeA": "O9",
+        "fixed": "O2",
+        "note": "openA='Standing tackling', options={'O1': 'Pushing', 'O2': 'St. tackling', 'O3': 'Elbowing', 'O4': 'High leg'}"
+      },
+      {
+        "index": 208,
+        "category": "RECOVERABLE",
+        "closeA": "O5",
+        "fixed": "O3",
+        "note": "openA='Standing tackling', options={'O1': 'Tackling', 'O2': 'High leg', 'O3': 'St. tackling', 'O4': 'Challenge'}"
+      },
+      {
+        "index": 217,
+        "category": "OK_NONCONTIGUOUS",
+        "closeA": "O2",
+        "fixed": null,
+        "note": "openA='No', options={'O2': 'No', 'O3': 'Yes'}"
+      },
+      {
+        "index": 221,
+        "category": "OK_NONCONTIGUOUS",
+        "closeA": "O2",
+        "fixed": null,
+        "note": "openA='No', options={'O2': 'No', 'O3': 'Yes'}"
+      },
+      {
+        "index": 223,
+        "category": "UNRECOVERABLE",
+        "closeA": "O5",
+        "fixed": null,
+        "note": "openA='Standing tackling', options={'O1': 'Dive', 'O2': 'Pushing', 'O3': 'Challenge', 'O4': 'Tackling'}"
+      },
+      {
+        "index": 242,
+        "category": "OK_NONCONTIGUOUS",
+        "closeA": "O2",
+        "fixed": null,
+        "note": "openA='No', options={'O2': 'No', 'O3': 'Yes'}"
+      },
+      {
+        "index": 255,
+        "category": "UNRECOVERABLE",
+        "closeA": "O5",
+        "fixed": null,
+        "note": "openA='No card', options={'O1': 'No card or yellow card', 'O2': 'Yellow card or red card', 'O3': 'Red card', 'O4': 'Yellow card'}"
+      },
+      {
+        "index": 258,
+        "category": "OK_NONCONTIGUOUS",
+        "closeA": "O3",
+        "fixed": null,
+        "note": "openA='No', options={'O2': 'Yes', 'O3': 'No'}"
+      },
+      {
+        "index": 260,
+        "category": "OK_NONCONTIGUOUS",
+        "closeA": "O1",
+        "fixed": null,
+        "note": "openA='No', options={'O1': 'No', 'O3': 'Yes'}"
+      },
+      {
+        "index": 266,
+        "category": "UNRECOVERABLE",
+        "closeA": "O9",
+        "fixed": null,
+        "note": "openA='Standing tackling', options={'O1': 'High leg', 'O2': 'Challenge', 'O3': 'Tackling', 'O4': 'Holding'}"
+      },
+      {
+        "index": 274,
+        "category": "OK_NONCONTIGUOUS",
+        "closeA": "O3",
+        "fixed": null,
+        "note": "openA='No', options={'O1': 'Yes', 'O3': 'No'}"
+      },
+      {
+        "index": 280,
+        "category": "RECOVERABLE",
+        "closeA": "O6",
+        "fixed": "O3",
+        "note": "openA='Standing tackling', options={'O1': 'High leg', 'O2': 'Tackling', 'O3': 'St. tackling', 'O4': 'Holding'}"
+      },
+      {
+        "index": 281,
+        "category": "UNRECOVERABLE",
+        "closeA": "O9",
+        "fixed": null,
+        "note": "openA='Standing tackling', options={'O1': 'Dive', 'O2': 'Challenge', 'O3': 'Holding', 'O4': 'Elbowing'}"
+      },
+      {
+        "index": 285,
+        "category": "UNRECOVERABLE",
+        "closeA": "O5",
+        "fixed": null,
+        "note": "openA='No card', options={'O1': 'Yellow card', 'O2': 'No card or yellow card', 'O3': 'Yellow card or red card', 'O4': 'Red card'}"
+      }
+    ],
+    "drop_indices": [
+      6,
+      8,
+      45,
+      46,
+      53,
+      72,
+      77,
+      83,
+      98,
+      115,
+      121,
+      128,
+      140,
+      145,
+      160,
+      167,
+      168,
+      180,
+      191,
+      223,
+      255,
+      266,
+      281,
+      285
+    ],
+    "fix_map": {
+      "41": "O4",
+      "70": "O2",
+      "86": "O2",
+      "148": "O4",
+      "203": "O2",
+      "208": "O3",
+      "280": "O3"
+    }
+  }
+}

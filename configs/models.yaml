@@ -1,0 +1,72 @@
+default_vlm: qwen_local
+default_encoder: clip_vit_l
+
+vlm:
+  qwen_local:
+    backend: qwen_local
+    model_id: Qwen/Qwen2.5-VL-7B-Instruct
+    dtype: bfloat16
+    device_map: auto
+    max_new_tokens: 128
+    scoring: logit
+    length_normalize: true
+
+  # ban nho de chay tren GPU 4GB (RTX 3050 laptop)
+  qwen_local_3b:
+    backend: qwen_local
+    model_id: Qwen/Qwen2.5-VL-3B-Instruct
+    quantization: 4bit
+    max_new_tokens: 128
+    scoring: logit
+    length_normalize: true
+
+  qwen_local_72b:
+    backend: qwen_local
+    model_id: Qwen/Qwen2.5-VL-72B-Instruct
+    dtype: bfloat16
+    device_map: auto
+    max_new_tokens: 128
+    scoring: logit
+    length_normalize: true
+
+  gemini:
+    backend: api
+    provider: google
+    model_id: gemini-2.5-flash
+    scoring: sampling     # khong lay duoc logits
+    sampling_n: 5
+    temperature: 0.7
+    api_key_env: GOOGLE_API_KEY
+
+  gpt:
+    backend: api
+    provider: openai
+    model_id: gpt-4.1-mini
+    scoring: sampling
+    sampling_n: 5
+    temperature: 0.7
+    api_key_env: OPENAI_API_KEY
+
+llm:
+  default: gemini
+  gemini:
+    provider: google
+    model_id: gemini-2.5-flash
+    api_key_env: GOOGLE_API_KEY
+
+encoder:
+  clip_vit_l:
+    lib: open_clip
+    model_id: ViT-L-14-quickgelu   # checkpoint openai dung QuickGELU
+    pretrained: openai
+    embed_dim: 768
+  siglip:
+    lib: open_clip
+    model_id: ViT-B-16-SigLIP
+    pretrained: webli
+    embed_dim: 768
+  dinov2_vitb14:
+    lib: torch_hub
+    repo: facebookresearch/dinov2
+    model_id: dinov2_vitb14
+    embed_dim: 768

@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+.env
+
+data/raw/
+
+data/cache/
+data/processed/clean/
+logs/
+!logs/.gitkeep
+
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# tai lieu ca nhan
+SVA_IMPLEMENTATION_SPEC.md
+docs/
+*.pdf
+.claude/
