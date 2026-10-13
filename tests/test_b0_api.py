@@ -3,6 +3,8 @@ from types import SimpleNamespace
 import numpy as np
 import pytest
 
+pytest.importorskip("google.genai")       # B0-api chi chay o may local (server khong cai google-genai)
+
 from sva.baselines.b0_api import B0Api
 from sva.schema import Sample
 
