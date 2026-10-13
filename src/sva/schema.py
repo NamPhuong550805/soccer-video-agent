@@ -12,7 +12,7 @@ class Sample:
     materials: list[str]           # duong dan tuyet doi
     option_keys: list[str]         # co the khong lien tuc, vd ["O1", "O3"]
     option_texts: dict[str, str]
-    gold_key: str
+    gold_key: Optional[str]        # None khi hoi that (ung dung), khong co dap an
     open_answer: Optional[str] = None
     cleaning_note: Optional[str] = None   # "closeA_fixed" | "openA_empty"
     meta: dict = field(default_factory=dict)

@@ -96,6 +96,17 @@ def write_clean_task(task_id, samples, out_dir=CLEAN_DIR):
     return path
 
 
+def local_path(path):
+    """File sach luu duong dan tuyet doi cua may da tao ra no; ghep lai theo SoccerBench cua may dang chay."""
+    parts = Path(str(path).replace("\\", "/")).parts
+    if "materials" not in parts:
+        return str(path)
+    return str((SOCCERBENCH_ROOT / Path(*parts[parts.index("materials"):])).resolve())
+
+
 def load_clean(task_id, clean_dir=CLEAN_DIR):
     with open(clean_dir / f"{task_id}_clean.json", encoding="utf-8") as f:
-        return [Sample.from_json(d) for d in json.load(f)]
+        samples = [Sample.from_json(d) for d in json.load(f)]
+    for s in samples:
+        s.materials = [local_path(p) for p in s.materials]
+    return samples

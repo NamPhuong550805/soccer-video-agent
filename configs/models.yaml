@@ -2,8 +2,10 @@ default_vlm: qwen_local
 default_encoder: clip_vit_l
 
 vlm:
+  # tag: hau to trong ten file ket qua (b1_vanilla_7b_q8.jsonl), ban 3B giu ten cu
   qwen_local:
     backend: qwen_local
+    tag: 7b
     model_id: Qwen/Qwen2.5-VL-7B-Instruct
     dtype: bfloat16
     device_map: auto
@@ -20,8 +22,19 @@ vlm:
     scoring: logit
     length_normalize: true
 
+  # 7B 4-bit cho GPU 8-16GB
+  qwen_local_7b_4bit:
+    backend: qwen_local
+    tag: 7b4bit
+    model_id: Qwen/Qwen2.5-VL-7B-Instruct
+    quantization: 4bit
+    max_new_tokens: 128
+    scoring: logit
+    length_normalize: true
+
   qwen_local_72b:
     backend: qwen_local
+    tag: 72b
     model_id: Qwen/Qwen2.5-VL-72B-Instruct
     dtype: bfloat16
     device_map: auto
@@ -32,10 +45,13 @@ vlm:
   gemini:
     backend: api
     provider: google
-    model_id: gemini-2.5-flash
+    model_id: gemini-3.5-flash-lite   # 2.5 / 2.0 da bi han che; ban flash (khong lite) mien phi chi 20 luot/ngay
     scoring: sampling     # khong lay duoc logits
     sampling_n: 5
     temperature: 0.7
+    thinking_level: low   # Gemini 3 khong tat duoc thinking, chi giam
+    max_output_tokens: 512
+    rpm: 15               # quota mien phi theo phut cua ban lite
     api_key_env: GOOGLE_API_KEY
 
   gpt:
@@ -51,7 +67,7 @@ llm:
   default: gemini
   gemini:
     provider: google
-    model_id: gemini-2.5-flash
+    model_id: gemini-3.5-flash-lite
     api_key_env: GOOGLE_API_KEY
 
 encoder:
@@ -70,3 +86,10 @@ encoder:
     repo: facebookresearch/dinov2
     model_id: dinov2_vitb14
     embed_dim: 768
+
+# Action Classifier cua UniSoccer (code goc SoccerAgent clone vao external/)
+unisoccer:
+  code_dir: external/SoccerAgent
+  classification_ckpt: external/unisoccer/pretrained_classification.pth
+  siglip: google/siglip-base-patch16-224
+  num_frames: 30

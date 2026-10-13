@@ -22,3 +22,12 @@ SVA_IMPLEMENTATION_SPEC.md
 docs/
 *.pdf
 .claude/
+
+# code goc SoccerAgent va checkpoint (tai rieng)
+external/
+
+# tai lieu server cua truong (noi bo)
+server_uit/
+
+# ma commit ghi luc dong goi code len server
+VERSION

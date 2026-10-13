@@ -3,6 +3,7 @@
     python scripts/04_warm_cache.py --task q8
     python scripts/04_warm_cache.py --task all --encoder clip_vit_l
     python scripts/04_warm_cache.py --task q14 --limit 20
+    python scripts/04_warm_cache.py --task q10 --unisoccer     # dau ra Action Classifier cho B1
 """
 import argparse
 import logging
@@ -12,7 +13,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from sva.config import load_config, setup_logging
+from sva.config import load_config, record_run, setup_logging
 from sva.constants import TASK_IDS
 from sva.data.clean import load_clean
 from sva.perception.cache import PerceptionCache
@@ -28,6 +29,7 @@ def main():
     parser.add_argument("--n-frames", type=int, default=cfg["n_frames_default"])
     parser.add_argument("--image-size", type=int, default=cfg["image_size"])
     parser.add_argument("--limit", type=int, default=None)
+    parser.add_argument("--unisoccer", action="store_true", help="chay Action Classifier cua UniSoccer")
     args = parser.parse_args()
 
     setup_logging("04_warm_cache")
@@ -35,8 +37,14 @@ def main():
 
     encoder = None
     if args.encoder:
+        import torch
         from sva.perception.encoder import build_encoder
-        encoder = build_encoder(args.encoder)
+        encoder = build_encoder(args.encoder, "cuda" if torch.cuda.is_available() else "cpu")
+
+    classifier = None
+    if args.unisoccer:
+        from sva.models.unisoccer import ActionClassifier
+        classifier = ActionClassifier()
 
     cache = PerceptionCache()
     n_declared, files, n_errors = 0, set(), 0
@@ -50,7 +58,9 @@ def main():
                 n_declared += 1
                 files.add(path)
                 try:
-                    if encoder:
+                    if classifier:
+                        classifier.probs(path)
+                    elif encoder:
                         cache.get_embedding(path, args.n_frames, args.image_size, encoder)
                     else:
                         cache.get_frames(path, args.n_frames, args.image_size)
@@ -62,6 +72,7 @@ def main():
     log.info("")
     log.info("%d luot khai bao / %d file (trung %d)", n_declared, len(files), n_declared - len(files))
     log.info("cache hit=%d miss=%d, %d loi, %.1fs", cache.hits, cache.misses, n_errors, time.time() - start)
+    record_run(f"{' '.join(task_ids)}: {len(files)} file, cache hit={cache.hits} miss={cache.misses}, {n_errors} loi")
     return 1 if n_errors else 0
 
 

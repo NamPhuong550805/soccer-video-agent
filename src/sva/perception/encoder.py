@@ -18,11 +18,16 @@ class OpenCLIPEncoder:
         self.device = device
         self.model, _, self.preprocess = open_clip.create_model_and_transforms(model_id, pretrained=pretrained)
         self.model.eval().to(device)
+        self.tokenizer = open_clip.get_tokenizer(model_id)
 
     @torch.no_grad()
     def encode(self, frames):
         batch = torch.stack([self.preprocess(Image.fromarray(f)) for f in frames]).to(self.device)
         return l2_normalize(self.model.encode_image(batch).float().cpu().numpy())
+
+    @torch.no_grad()
+    def encode_text(self, texts):
+        return l2_normalize(self.model.encode_text(self.tokenizer(texts).to(self.device)).float().cpu().numpy())
 
 
 class DINOv2Encoder:
@@ -40,6 +45,17 @@ class DINOv2Encoder:
         x = torch.nn.functional.interpolate(x, size=(224, 224), mode="bilinear", align_corners=False)
         x = ((x - self.MEAN) / self.STD).to(self.device)
         return l2_normalize(self.model(x).float().cpu().numpy())
+
+
+class HSVEncoder:
+    """Moc khong hoc: histogram HSV 8x8x8 chuan hoa L2."""
+    name = "hsv"
+
+    def encode(self, frames):
+        import cv2
+        h = np.array([cv2.calcHist([cv2.cvtColor(f, cv2.COLOR_RGB2HSV)], [0, 1, 2], None, [8, 8, 8],
+                                   [0, 180, 0, 256, 0, 256]).ravel() for f in frames])
+        return l2_normalize(h)
 
 
 def build_encoder(name, device="cpu"):

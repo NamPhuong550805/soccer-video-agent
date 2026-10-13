@@ -1,10 +1,21 @@
+from pathlib import Path
+
+from sva.constants import SOCCERBENCH_ROOT
 from sva.data.loader import canon
 from sva.models.scoring import dist_from_logprobs, margin_confidence
 from sva.schema import Evidence
 
 
+def rel_path(path):
+    # luu duong dan tuong doi trong ket qua, khong de lo duong dan tren may
+    try:
+        return Path(path).resolve().relative_to(SOCCERBENCH_ROOT.resolve()).as_posix()
+    except ValueError:
+        return str(path)
+
+
 def _ref(sample, timestamps=None):
-    ref = {"clips": sample.materials}
+    ref = {"clips": [rel_path(p) for p in sample.materials]}
     if timestamps is not None:
         ref["timestamps"] = list(timestamps)
     return ref

@@ -45,7 +45,8 @@ Q14_CLOSEA_FIX = {41: "O4", 70: "O2", 86: "O2", 148: "O4", 203: "O2", 208: "O3",
 Q13_CLOSEA_FIX = {163: "O2"}
 Q13_OPENA_EMPTY_INDICES = [225, 297, 484, 688]
 
-LABEL_ALIASES = {"st. tackling": "standing tackling"}
+LABEL_ALIASES = {"st. tackling": "standing tackling", "foul (no card)": "foul with no card",
+                 "start of game(half)": "start of half game"}
 
 ORDINAL_SCALES = {
     "severity": {"no card": 0.0, "no card or yellow card": 0.5, "yellow card": 1.0,
