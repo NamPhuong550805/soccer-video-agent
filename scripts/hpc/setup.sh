@@ -31,7 +31,7 @@ pip install torch==2.12.0 torchvision==0.27.0 --index-url https://download.pytor
 say "3/5 cai cac thu vien con lai (1-3 phut)"
 pip install transformers==5.18.0 accelerate==1.13.0 bitsandbytes==0.50.2 \
     opencv-contrib-python-headless==4.11.0.86 numpy==2.4.4 scipy==1.16.3 open_clip_torch==3.3.0 \
-    scenedetect==0.7.1 einops==0.8.2 timm==1.0.22 pyyaml tqdm python-dotenv pandas statsmodels pytest
+    scenedetect==0.7.1 einops==0.8.2 timm==1.0.22 pyyaml tqdm python-dotenv pandas pytest
 # scenedetect keo theo opencv-python ban moi nhat (cung module cv2, de len nhau) -> go ra, cai lai dung ban nhu may local
 pip uninstall -y opencv-python
 pip install --force-reinstall --no-deps opencv-contrib-python-headless==4.11.0.86

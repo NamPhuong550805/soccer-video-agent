@@ -1,91 +1,49 @@
 default_vlm: qwen_local
-default_encoder: clip_vit_l
 
 vlm:
   # tag: hau to trong ten file ket qua (b1_vanilla_7b_q8.jsonl), ban 3B giu ten cu
-  qwen_local:
+  qwen_local:                 # 7B bf16 (server)
     backend: qwen_local
     tag: 7b
     model_id: Qwen/Qwen2.5-VL-7B-Instruct
-    dtype: bfloat16
-    device_map: auto
     max_new_tokens: 128
-    scoring: logit
-    length_normalize: true
 
-  # ban nho de chay tren GPU 4GB (RTX 3050 laptop)
-  qwen_local_3b:
+  qwen_local_3b:              # ban nho cho GPU 4GB (RTX 3050 laptop)
     backend: qwen_local
     model_id: Qwen/Qwen2.5-VL-3B-Instruct
     quantization: 4bit
     max_new_tokens: 128
-    scoring: logit
-    length_normalize: true
 
-  # 7B 4-bit cho GPU 8-16GB
-  qwen_local_7b_4bit:
+  qwen_local_7b_4bit:         # 7B 4-bit cho GPU 8-16GB
     backend: qwen_local
     tag: 7b4bit
     model_id: Qwen/Qwen2.5-VL-7B-Instruct
     quantization: 4bit
     max_new_tokens: 128
-    scoring: logit
-    length_normalize: true
 
-  qwen_local_72b:
-    backend: qwen_local
-    tag: 72b
-    model_id: Qwen/Qwen2.5-VL-72B-Instruct
-    dtype: bfloat16
-    device_map: auto
-    max_new_tokens: 128
-    scoring: logit
-    length_normalize: true
-
-  gemini:
+  gemini:                     # B0-api: khong lay duoc logits nen hoi nhieu lan roi dem
     backend: api
-    provider: google
     model_id: gemini-3.5-flash-lite   # 2.5 / 2.0 da bi han che; ban flash (khong lite) mien phi chi 20 luot/ngay
-    scoring: sampling     # khong lay duoc logits
     sampling_n: 5
     temperature: 0.7
-    thinking_level: low   # Gemini 3 khong tat duoc thinking, chi giam
+    thinking_level: low       # Gemini 3 khong tat duoc thinking, chi giam
     max_output_tokens: 512
-    rpm: 15               # quota mien phi theo phut cua ban lite
+    rpm: 15                   # quota mien phi theo phut cua ban lite
     api_key_env: GOOGLE_API_KEY
 
-  gpt:
-    backend: api
-    provider: openai
-    model_id: gpt-4.1-mini
-    scoring: sampling
-    sampling_n: 5
-    temperature: 0.7
-    api_key_env: OPENAI_API_KEY
-
-llm:
-  default: gemini
-  gemini:
-    provider: google
-    model_id: gemini-3.5-flash-lite
-    api_key_env: GOOGLE_API_KEY
-
-encoder:
+encoder:                      # encoder anh cho so khop replay (q9)
   clip_vit_l:
     lib: open_clip
     model_id: ViT-L-14-quickgelu   # checkpoint openai dung QuickGELU
     pretrained: openai
-    embed_dim: 768
   siglip:
     lib: open_clip
     model_id: ViT-B-16-SigLIP
     pretrained: webli
-    embed_dim: 768
   dinov2_vitb14:
     lib: torch_hub
     repo: facebookresearch/dinov2
     model_id: dinov2_vitb14
-    embed_dim: 768
 
 # Action Classifier cua UniSoccer (code goc SoccerAgent clone vao external/)
 unisoccer:

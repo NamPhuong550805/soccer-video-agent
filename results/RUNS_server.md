@@ -1,0 +1,17 @@
+# Sổ tay chạy thí nghiệm
+
+Mỗi dòng là một lần chạy script, do `record_run` tự ghi. Log chi tiết nằm ở `logs/` (không đưa lên git). Commit có `*` là lúc chạy code đang sửa chưa commit.
+
+> 14/10/2026: gộp và đổi tên script — `00_verify_dataset`, `01_audit`, `02_clean`, `03_build_split` → `01_data.py`; `04_warm_cache` → `02_warm_cache.py`; `05_run_system` → `03_run.py`; `07_dev_matching`, `08_dev_multiview`, `09_dev_branch_a` → `04_dev_tuning.py q9 / q14 / branch_a`; `06_evaluate`, `11_report` → `05_report.py`; `10_ablation` → `06_ablation.py`; `12_eval_agent`, `13_ask` → `07_agent.py`. Các dòng trước đó giữ tên cũ.
+
+| bắt đầu | lệnh | commit | kết quả | thời gian | log |
+|---|---|---|---|---|---|
+| 2026-10-13 16:20 | `python scripts/05_run_system.py --system sva_e2e --task all --split dev --limit 3 --theta 0.2 --backend qwen_local` | 9a816d1 | sva_e2e_7b dev theta=0.2: q8 33.3 (n=3); q9 66.7 (n=3); q10 66.7 (n=3); q11 33.3 (n=3); q13 100.0 (n=3); q14 33.3 (n=3) | 2 phút | 05_run_sva_e2e_20261013_162016.log |
+| 2026-10-13 16:45 | `python scripts/05_run_system.py --system b0_local --task all --backend qwen_local` | eb5d2a4 | b0_local_7b test: q8 54.3 (n=280); q9 24.3 (n=280); q10 45.4 (n=700); q11 44.6 (n=700); q13 45.1 (n=490); q14 63.0 (n=192) | 21 phút | 05_run_b0_local_20261013_164528.log |
+| 2026-10-13 17:06 | `python scripts/05_run_system.py --system b0_loop_trace --theta 1.0 --split dev --task all --backend qwen_local` | eb5d2a4 | b0_loop_trace_7b dev theta=1.0: q8 65.8 (n=120); q9 28.3 (n=120); q10 48.7 (n=300); q11 48.7 (n=300); q13 47.1 (n=210); q14 65.5 (n=84) | 33 phút | 05_run_b0_loop_trace_20261013_170630.log |
+| 2026-10-13 17:39 | `python scripts/05_run_system.py --system b0_loop --theta auto --task all --backend qwen_local` | eb5d2a4 | b0_loop_7b test theta=0.1: q8 60.4 (n=280); q9 24.3 (n=280); q10 48.4 (n=700); q11 47.9 (n=700); q13 48.2 (n=490); q14 65.6 (n=192) | 45 phút | 05_run_b0_loop_20261013_173924.log |
+| 2026-10-13 18:24 | `python scripts/05_run_system.py --system sva_trace --theta 1.0 --split dev --task all --backend qwen_local` | eb5d2a4 | sva_trace_7b dev theta=1.0: q8 72.5 (n=120); q9 80.8 (n=120); q10 88.0 (n=300); q11 72.7 (n=300); q13 46.7 (n=210); q14 59.5 (n=84) | 10 phút | 05_run_sva_trace_20261013_182400.log |
+| 2026-10-13 18:33 | `python scripts/05_run_system.py --system sva_noloop --theta 0 --task all --backend qwen_local` | eb5d2a4 | sva_noloop_7b test theta=0.0: q8 66.1 (n=280); q9 78.9 (n=280); q10 87.1 (n=700); q11 72.0 (n=700); q13 44.7 (n=490); q14 64.1 (n=192) | 10 phút | 05_run_sva_noloop_20261013_183332.log |
+| 2026-10-13 18:43 | `python scripts/05_run_system.py --system sva --theta auto --task all --backend qwen_local` | eb5d2a4 | sva_7b test theta=0.25: q8 69.3 (n=280); q9 78.9 (n=280); q10 87.1 (n=700); q11 72.0 (n=700); q13 48.4 (n=490); q14 64.1 (n=192) | 15 phút | 05_run_sva_20261013_184331.log |
+| 2026-10-13 18:58 | `python scripts/10_ablation.py --part a5 --backend qwen_local` | eb5d2a4 | A5 test: q8 quyet dinh tu chu 46.8; q13 quyet dinh tu chu 45.9 | 17 phút | 10_ablation_a5_20261013_185859.log |
+| 2026-10-13 19:15 | `python scripts/05_run_system.py --system b1_vanilla --task all --backend qwen_local` | eb5d2a4 | b1_vanilla_7b test: q8 52.5 (n=280); q9 23.6 (n=280); q10 79.7 (n=700); q11 37.0 (n=700); q13 43.3 (n=490); q14 52.6 (n=192) | 488 phút | 05_run_b1_vanilla_20261013_191532.log |

@@ -10,7 +10,7 @@
 #SBATCH --time=24:00:00
 #SBATCH --gres=gpu:2g.35gb:1
 # Chay 1 script python cua du an tren GPU. Goi tu thu muc du an, vd:
-#   sbatch --job-name=nam_b0 scripts/hpc/job.sh scripts/05_run_system.py --system b0_local --task all --backend qwen_local
+#   sbatch --job-name=nam_b0 scripts/hpc/job.sh scripts/03_run.py --system b0_local --task all --backend qwen_local
 ROOT=/datastore/$USER/nam_sva
 source /datastore/$USER/envs/sva-py312-torch2.12-cu126/bin/activate
 # model o thu muc chung; SVA_FRAME_CACHE=0: frame chi giu trong RAM, khong ghi cache ra dia (cache frame local ~22 GB)

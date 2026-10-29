@@ -1,0 +1,220 @@
+{
+ "dev": {
+  "luat (so clip that)": [
+   1134,
+   1134
+  ],
+  "luat (1 video)": [
+   1134,
+   1134
+  ],
+  "chi LLM": [
+   1115,
+   1134
+  ],
+  "luat + LLM": [
+   1134,
+   1134
+  ]
+ },
+ "test": {
+  "luat (so clip that)": [
+   2642,
+   2642
+  ],
+  "luat (1 video)": [
+   2642,
+   2642
+  ],
+  "chi LLM": [
+   2592,
+   2642
+  ],
+  "luat + LLM": [
+   2642,
+   2642
+  ]
+ },
+ "out_of_scope": [
+  {
+   "question": "Who scored the most goals in this season?",
+   "rule": null,
+   "agent": "out",
+   "p_out": 0.98
+  },
+  {
+   "question": "What is the final score of this match?",
+   "rule": null,
+   "agent": "out",
+   "p_out": 0.954
+  },
+  {
+   "question": "How many players are on the pitch in this image?",
+   "rule": null,
+   "agent": "out",
+   "p_out": 0.803
+  },
+  {
+   "question": "Who is the referee of this game?",
+   "rule": null,
+   "agent": "q10",
+   "p_out": 0.229
+  },
+  {
+   "question": "What is the name of the player wearing number 10?",
+   "rule": null,
+   "agent": "q13",
+   "p_out": 0.412
+  },
+  {
+   "question": "Which stadium is this match played in?",
+   "rule": null,
+   "agent": "out",
+   "p_out": 0.394
+  },
+  {
+   "question": "When was this football club founded?",
+   "rule": null,
+   "agent": "out",
+   "p_out": 0.984
+  },
+  {
+   "question": "How old is the goalkeeper?",
+   "rule": null,
+   "agent": "out",
+   "p_out": 0.898
+  },
+  {
+   "question": "Which team won the league last year?",
+   "rule": null,
+   "agent": "out",
+   "p_out": 0.963
+  },
+  {
+   "question": "What is the offside rule in football?",
+   "rule": null,
+   "agent": "out",
+   "p_out": 0.984
+  },
+  {
+   "question": "How many yellow cards did this team get this season?",
+   "rule": "q14",
+   "agent": "out",
+   "p_out": 0.911
+  },
+  {
+   "question": "What time does the second half start?",
+   "rule": null,
+   "agent": "out",
+   "p_out": 0.465
+  },
+  {
+   "question": "Who is the coach of the home team?",
+   "rule": null,
+   "agent": "out",
+   "p_out": 0.495
+  },
+  {
+   "question": "What is the weather like during this match?",
+   "rule": null,
+   "agent": "out",
+   "p_out": 0.676
+  },
+  {
+   "question": "How much is this player's transfer fee?",
+   "rule": null,
+   "agent": "out",
+   "p_out": 0.969
+  },
+  {
+   "question": "Which country does the striker play for?",
+   "rule": null,
+   "agent": "q13",
+   "p_out": 0.216
+  },
+  {
+   "question": "What is the current minute shown on the scoreboard?",
+   "rule": null,
+   "agent": "out",
+   "p_out": 0.969
+  },
+  {
+   "question": "How many goals has this player scored in the Champions League?",
+   "rule": null,
+   "agent": "out",
+   "p_out": 0.973
+  },
+  {
+   "question": "Is this match broadcast on television?",
+   "rule": null,
+   "agent": "out",
+   "p_out": 0.594
+  },
+  {
+   "question": "What brand makes the team's kit?",
+   "rule": null,
+   "agent": "q13",
+   "p_out": 0.086
+  },
+  {
+   "question": "Who won the Ballon d'Or in 2018?",
+   "rule": null,
+   "agent": "out",
+   "p_out": 0.927
+  },
+  {
+   "question": "How long is a football match?",
+   "rule": null,
+   "agent": "out",
+   "p_out": 0.945
+  },
+  {
+   "question": "What is the capacity of this stadium?",
+   "rule": null,
+   "agent": "out",
+   "p_out": 0.954
+  },
+  {
+   "question": "Which league is this match from?",
+   "rule": null,
+   "agent": "q10",
+   "p_out": 0.295
+  },
+  {
+   "question": "What is the jersey number of the captain?",
+   "rule": "q13",
+   "agent": "out",
+   "p_out": 0.699
+  },
+  {
+   "question": "How many substitutions are allowed in a match?",
+   "rule": null,
+   "agent": "q10",
+   "p_out": 0.488
+  },
+  {
+   "question": "Who was the man of the match?",
+   "rule": null,
+   "agent": "q13",
+   "p_out": 0.161
+  },
+  {
+   "question": "What was the attendance at this game?",
+   "rule": null,
+   "agent": "out",
+   "p_out": 0.98
+  },
+  {
+   "question": "Which player has the most assists?",
+   "rule": null,
+   "agent": "out",
+   "p_out": 0.955
+  },
+  {
+   "question": "What formation is the away team using?",
+   "rule": null,
+   "agent": "q10",
+   "p_out": 0.16
+  }
+ ]
+}

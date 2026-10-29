@@ -1,0 +1,137 @@
+{
+ "question": "Which earlier play is shown again in the replay at 1:28?",
+ "videos": [
+  "data/cache/agent/long/q9_0.mp4"
+ ],
+ "task": "q9",
+ "route": "rule",
+ "time": [
+  88,
+  88
+ ],
+ "status": "answered",
+ "answer": "The replay at 1:23-1:37 shows the play at 1:18-1:20 (confidence 0.43).",
+ "label": "1:18-1:20",
+ "key": null,
+ "chosen": "data/cache/agent/long/q9_0.mp4#t=78.44,80.00",
+ "confidence": 0.4289999102432299,
+ "segments": [
+  "data/cache/agent/long/q9_0.mp4#t=83.60,97.00",
+  "data/cache/agent/long/q9_0.mp4#t=0.00,15.44",
+  "data/cache/agent/long/q9_0.mp4#t=15.44,34.24",
+  "data/cache/agent/long/q9_0.mp4#t=34.24,37.52",
+  "data/cache/agent/long/q9_0.mp4#t=37.52,40.80",
+  "data/cache/agent/long/q9_0.mp4#t=40.80,46.56",
+  "data/cache/agent/long/q9_0.mp4#t=46.56,60.88",
+  "data/cache/agent/long/q9_0.mp4#t=60.88,73.36",
+  "data/cache/agent/long/q9_0.mp4#t=73.36,78.44",
+  "data/cache/agent/long/q9_0.mp4#t=78.44,80.00",
+  "data/cache/agent/long/q9_0.mp4#t=81.08,83.60"
+ ],
+ "candidates": {
+  "O1": "The 1st one.",
+  "O2": "The 2nd one.",
+  "O3": "The 3rd one.",
+  "O4": "The 4th one.",
+  "O5": "The 5th one.",
+  "O6": "The 6th one.",
+  "O7": "The 7th one.",
+  "O8": "The 8th one.",
+  "O9": "The 9th one.",
+  "O10": "The 10th one."
+ },
+ "dist": {
+  "O1": 0.26979302401737454,
+  "O2": 0.11071430761522591,
+  "O3": 6.87399565358221e-05,
+  "O4": 3.3733128932431264e-07,
+  "O5": 1.4680771815531999e-06,
+  "O6": 0.08232266527495824,
+  "O7": 0.0981384112769106,
+  "O8": 0.003350035869075847,
+  "O9": 0.4289999102432299,
+  "O10": 0.006611100338218365
+ },
+ "evidence": [
+  {
+   "tool_name": "replay_match",
+   "claim_type": "positional",
+   "option_keys": [
+    "O1",
+    "O2",
+    "O3",
+    "O4",
+    "O5",
+    "O6",
+    "O7",
+    "O8",
+    "O9",
+    "O10"
+   ],
+   "dist": {
+    "O1": 0.26979302401737454,
+    "O2": 0.11071430761522591,
+    "O3": 6.87399565358221e-05,
+    "O4": 3.3733128932431264e-07,
+    "O5": 1.4680771815531999e-06,
+    "O6": 0.08232266527495824,
+    "O7": 0.0981384112769106,
+    "O8": 0.003350035869075847,
+    "O9": 0.4289999102432299,
+    "O10": 0.006611100338218365
+   },
+   "confidence": 0.15920688622585538,
+   "raw_observation": "O1: 0.885 (lui 0.30) | O2: 0.877 (lui 0.35) | O3: 0.803 (lui 0.22) | O4: 0.750 (lui 0.35) | O5: 0.764 (lui 0.26) | O6: 0.874 (lui 0.35) | O7: 0.875 (lui 0.17) | O8: 0.842 (lui 0.35) | O9: 0.890 (lui 0.35) | O10: 0.848 (lui 0.39)",
+   "material_ref": {
+    "clips": [
+     "data/cache/agent/long/q9_0.mp4#t=83.60,97.00",
+     "data/cache/agent/long/q9_0.mp4#t=0.00,15.44",
+     "data/cache/agent/long/q9_0.mp4#t=15.44,34.24",
+     "data/cache/agent/long/q9_0.mp4#t=34.24,37.52",
+     "data/cache/agent/long/q9_0.mp4#t=37.52,40.80",
+     "data/cache/agent/long/q9_0.mp4#t=40.80,46.56",
+     "data/cache/agent/long/q9_0.mp4#t=46.56,60.88",
+     "data/cache/agent/long/q9_0.mp4#t=60.88,73.36",
+     "data/cache/agent/long/q9_0.mp4#t=73.36,78.44",
+     "data/cache/agent/long/q9_0.mp4#t=78.44,80.00",
+     "data/cache/agent/long/q9_0.mp4#t=81.08,83.60"
+    ],
+    "max_cos": [
+     0.9435,
+     0.9356,
+     0.8454,
+     0.8061,
+     0.8515,
+     0.9369,
+     0.9356,
+     0.8865,
+     0.9401,
+     0.8977
+    ]
+   },
+   "ordinal_scale": null,
+   "failed": false
+  }
+ ],
+ "steps": [
+  {
+   "dist": {
+    "O1": 0.26979302401737454,
+    "O2": 0.11071430761522591,
+    "O3": 6.87399565358221e-05,
+    "O4": 3.3733128932431264e-07,
+    "O5": 1.4680771815531999e-06,
+    "O6": 0.08232266527495824,
+    "O7": 0.0981384112769106,
+    "O8": 0.003350035869075847,
+    "O9": 0.4289999102432299,
+    "O10": 0.006611100338218365
+   },
+   "confidence": 0.15920688622585538
+  }
+ ],
+ "frames": [
+  "D:\\UITs subject\\soccer-video-agent\\results\\agent\\ask\\20261013_121250\\segment.png",
+  "D:\\UITs subject\\soccer-video-agent\\results\\agent\\ask\\20261013_121250\\matched_play.png"
+ ]
+}

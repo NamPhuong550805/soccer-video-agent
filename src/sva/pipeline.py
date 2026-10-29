@@ -1,18 +1,32 @@
 """SVA: Router -> nhanh -> cac Evidence -> Reasoner (gop, chua du tin thi tu hoi them)."""
-from sva.config import load_config
-from sva.reasoner import Reasoner, vlm_actions
-from sva.router import route
+from sva.baselines import B0Local
+from sva.branches import BranchA, BranchB, BranchC
+from sva.config import TASK_META, load_config
+from sva.data import load_clean
+from sva.reasoner import Expand, LLMPolicyReasoner, Reasoner, vlm_actions
 
 
+# ---------------------------------------------------------------- Router
+BRANCH_A_TASKS = {"q10", "q11"}     # don clip, da co cong cu chuyen dung tot
+
+
+def route(sample):
+    if sample.task_id in BRANCH_A_TASKS:
+        return "A"
+    if len(sample.materials) > 1:   # nhieu clip: dap an nam o quan he giua cac clip
+        return "C"
+    return "B"
+
+
+def router_accuracy(samples):
+    """Ty le mau duoc chia dung nhanh theo bang task (metric kiem soat)."""
+    return sum(route(s) == TASK_META[s.task_id]["branch"] for s in samples) / len(samples)
+
+
+# ---------------------------------------------------------------- SVA
 class SVA:
     def __init__(self, backend="qwen_local_3b", theta=None, name="sva", policy=None, grounding=None):
-        """policy: "rule" (Reasoner goc) hoac "llm" (LLM chon buoc tiep theo); mac dinh theo config.
-        grounding: co thi them hanh dong "expand" (chi dung duoc voi doan video that, khong voi clip benchmark)."""
-        from sva.agent.controller import Expand, LLMPolicyReasoner
-        from sva.baselines.b0_local import B0Local
-        from sva.branches.branch_a import BranchA
-        from sva.branches.branch_b import BranchB
-        from sva.branches.branch_c import BranchC
+        """policy: "rule" hoac "llm" (mac dinh theo config); grounding: co thi them hanh dong "expand" (video that)."""
         cfg = load_config()
         self.name = name
         self.scorer = B0Local(backend)
@@ -34,7 +48,6 @@ class SVA:
         self.no_vlm_actions = set(r["no_vlm_actions"])
 
     def supports(self, task_id):
-        from sva.data.clean import load_clean
         branch = self.branches.get(route(load_clean(task_id)[0]))
         return branch is not None and getattr(branch, "supports", lambda t: True)(task_id)
 

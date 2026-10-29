@@ -1,0 +1,11 @@
+{
+ "question": "Who scored the most goals in this season?",
+ "videos": [
+  "data/cache/agent/long/q10_0.mp4"
+ ],
+ "task": "out",
+ "route": "llm",
+ "time": null,
+ "status": "out_of_scope",
+ "answer": "This question is outside what can be answered from the video (camera changes, replays, events, commentary, jersey colors, fouls)."
+}

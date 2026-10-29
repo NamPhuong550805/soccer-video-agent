@@ -1,9 +1,8 @@
 import numpy as np
 
-from sva.agent.grounding import DIM_LABELS, Grounding, dimension_from_question, rouge_l
-from sva.agent.question import QuestionAgent, parse_time, rule_task
-from sva.perception.video import segment
-from sva.schema import Sample
+from sva.agent import DIM_LABELS, Grounding, QuestionAgent, dimension_from_question, parse_time, rouge_l, rule_task
+from sva.data import Sample
+from sva.perception import segment
 
 
 def q(text, n=1, options=None, task="q8"):
@@ -22,6 +21,25 @@ def test_rules_route_by_clips_keywords_and_option_length():
     long = {f"O{i}": "[PLAYER] ([TEAM]) sends a lofted cross into the box which is headed clear." for i in range(4)}
     assert rule_task("Describe the content of this football video.", 1, long) == ("q11", "options")
     assert rule_task("Describe the content of this football video.") == (None, None)
+
+
+def test_option_vocabulary_routes_when_question_has_no_keyword():
+    from sva.agent import vocab_task
+    assert rule_task("Was there a deliberate attempt to play the ball?", 1, {"O1": "No", "O3": "Yes"}) == ("q14", "options")
+    assert vocab_task({"O1": "Yellow card", "O2": "Red card"}) == "q14"      # the phat: q14 truoc q10
+    assert vocab_task({"O1": "blue", "O2": "light blue"}) == "q13"
+    assert vocab_task({"O1": "From Main camera center to Close-up corner."}) == "q8"
+    assert vocab_task({"O1": "corner", "O2": "throw in"}) == "q10"
+    assert vocab_task({"O1": "corner kick", "O2": "a goal"}) is None         # chu tu do -> lop sau (LLM)
+
+
+def test_free_text_options_map_to_event_classes():
+    class Backend:                       # LLM chon lop 'corner' (chi so 20) cho moi phuong an khong khop nguyen van
+        def score_chat(self, messages, labels):
+            return np.array([0.0 if i == 20 else -5.0 for i in range(len(labels))])
+    g = Grounding()
+    g.attach(type("S", (), {"scorer": type("Sc", (), {"backend": Backend()})()})())
+    assert g.to_classes(["Goal", "corner kick", "Free kick."]) == ["goal", "corner", "free kick"]
 
 
 def test_llm_fallback_and_scope_check():
@@ -74,9 +92,9 @@ def test_rouge_l():
 
 
 def test_from_video_windows_and_clarify():
-    from sva.agent.question import Intent
-    from sva.data.clean import load_clean
-    from sva.perception.video import split_segment
+    from sva.agent import Intent
+    from sva.data import load_clean
+    from sva.perception import split_segment
     clip = load_clean("q10")[0].materials[0]                            # clip ~30 giay
     g = Grounding()
     s, _ = g.from_video(Intent("q10", "rule", time=(10, 10)), [clip], "What happens at 0:10?", None)
@@ -88,7 +106,7 @@ def test_from_video_windows_and_clarify():
 
 
 def test_from_video_q9_uses_replay_time_and_earlier_shots():
-    from sva.agent.question import Intent
+    from sva.agent import Intent
     vmap = {"duration": 60, "shots": [{"start": 0, "end": 8}, {"start": 8, "end": 9}, {"start": 9, "end": 20},
                                       {"start": 20, "end": 35}, {"start": 35, "end": 60}]}
     s, _ = Grounding().from_video(Intent("q9", "rule", time=(40, 40)), ["m.mp4"], "the replay at 0:40?", None, vmap)
@@ -102,8 +120,7 @@ def test_from_video_q9_uses_replay_time_and_earlier_shots():
 
 
 def test_video_map_helpers_and_answer():
-    from sva.agent.answer import compose
-    from sva.agent.video import VideoAgent
+    from sva.agent import VideoAgent, compose
     windows = VideoAgent(cache_dir=__import__("pathlib").Path(__import__("tempfile").mkdtemp())).windows(100)
     assert windows[0] == (0.0, 30.0) and windows[-1][1] == 100 and len(windows) == 8
     s = Sample("q10", 0, "q", ["v.mp4#t=55.00,85.00"], ["O1", "O2"], {"O1": "corner", "O2": "goal"}, None)

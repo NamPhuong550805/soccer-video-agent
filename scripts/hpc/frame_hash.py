@@ -12,9 +12,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
 
-from sva.constants import TASK_IDS
-from sva.eval.runner import load_split
-from sva.perception.cache import PerceptionCache, rel_key
+from sva.config import TASK_IDS
+from sva.eval import load_split
+from sva.perception import PerceptionCache, rel_key
 
 
 def hashes(cache, per_task):

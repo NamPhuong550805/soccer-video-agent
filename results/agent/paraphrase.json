@@ -1,0 +1,2402 @@
+[
+ {
+  "task": "q8",
+  "index": 287,
+  "old": "What type of shot changes occur with the camera in the video?",
+  "new": "What kind of camera movements happen in the football video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q8",
+  "index": 310,
+  "old": "What type of camera switch is used in the video?",
+  "new": "What kind of camera transition technique is utilized in the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q8",
+  "index": 25,
+  "old": "How does the camera move in the video?",
+  "new": "What is the movement pattern of the camera in the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q8",
+  "index": 187,
+  "old": "How does the viewpoint of the camera shift in the video?",
+  "new": "What changes in the camera's perspective throughout the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q8",
+  "index": 378,
+  "old": "How does the camera position change in the video?",
+  "new": "What adjustments are made to the camera's placement throughout the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": false
+ },
+ {
+  "task": "q8",
+  "index": 360,
+  "old": "How does the camera move in the video?",
+  "new": "What is the movement pattern of the camera in the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q8",
+  "index": 301,
+  "old": "How does the viewpoint of the camera shift in the video?",
+  "new": "What changes in the camera's perspective throughout the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q8",
+  "index": 222,
+  "old": "What type of camera switch is used in the video?",
+  "new": "What kind of camera transition technique is utilized in the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q8",
+  "index": 353,
+  "old": "How does the viewpoint of the camera shift in the video?",
+  "new": "What changes in the camera's perspective throughout the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q8",
+  "index": 269,
+  "old": "What kind of camera transitions are used in the video?",
+  "new": "What types of camera movements are utilized in the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q8",
+  "index": 156,
+  "old": "How does the camera perspective change in the video?",
+  "new": "What modifications occur to the viewpoint of the camera throughout the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q8",
+  "index": 375,
+  "old": "How does the viewpoint of the camera shift in the video?",
+  "new": "What changes in the camera's perspective throughout the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q8",
+  "index": 105,
+  "old": "How is the camera positioned in different parts of the video?",
+  "new": "What is the camera's placement in various sections of the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q8",
+  "index": 204,
+  "old": "What type of shot changes occur with the camera in the video?",
+  "new": "What kind of camera movements happen in the football video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q8",
+  "index": 67,
+  "old": "How is the camera positioned in different parts of the video?",
+  "new": "What is the camera's placement in various sections of the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q8",
+  "index": 183,
+  "old": "What type of shot changes occur with the camera in the video?",
+  "new": "What kind of camera movements happen in the football video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": true
+ },
+ {
+  "task": "q8",
+  "index": 392,
+  "old": "What kind of changes in camera positioning are there in the video?",
+  "new": "What modifications occur to the camera's placement within the footage?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q8",
+  "index": 110,
+  "old": "What kind of changes in camera positioning are there in the video?",
+  "new": "What modifications occur to the camera's placement within the footage?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q8",
+  "index": 229,
+  "old": "What type of camera switch is used in the video?",
+  "new": "What kind of camera transition technique is utilized in the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q8",
+  "index": 71,
+  "old": "Can you describe how the camera switches between shots in the video?",
+  "new": "How does the camera transition between different scenes in the football video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q8",
+  "index": 50,
+  "old": "What type of shot changes occur with the camera in the video?",
+  "new": "What kind of camera movements happen in the football video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q8",
+  "index": 247,
+  "old": "How does the viewpoint of the camera shift in the video?",
+  "new": "What changes in the camera's perspective throughout the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q8",
+  "index": 348,
+  "old": "What kind of camera transitions are used in the video?",
+  "new": "What types of camera movements are utilized in the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q8",
+  "index": 73,
+  "old": "How does the camera position change in the video?",
+  "new": "What adjustments are made to the camera's placement throughout the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q8",
+  "index": 266,
+  "old": "What type of shot changes occur with the camera in the video?",
+  "new": "What kind of camera movements happen in the football video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q8",
+  "index": 317,
+  "old": "What kind of changes in camera positioning are there in the video?",
+  "new": "What modifications occur to the camera's placement within the footage?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q8",
+  "index": 234,
+  "old": "How does the viewpoint of the camera shift in the video?",
+  "new": "What changes in the camera's perspective throughout the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q8",
+  "index": 148,
+  "old": "How does the camera position change in the video?",
+  "new": "What adjustments are made to the camera's placement throughout the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q8",
+  "index": 324,
+  "old": "What kind of changes in camera positioning are there in the video?",
+  "new": "What modifications occur to the camera's placement within the footage?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q8",
+  "index": 384,
+  "old": "What kind of changes in camera positioning are there in the video?",
+  "new": "What modifications occur to the camera's placement within the footage?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q8",
+  "index": 189,
+  "old": "How does the viewpoint of the camera shift in the video?",
+  "new": "What changes in the camera's perspective throughout the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q8",
+  "index": 42,
+  "old": "Can you describe how the camera switches between shots in the video?",
+  "new": "How does the camera transition between different scenes in the football video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q8",
+  "index": 12,
+  "old": "What kind of changes in camera positioning are there in the video?",
+  "new": "What modifications occur to the camera's placement within the footage?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q8",
+  "index": 63,
+  "old": "How does the camera position change in the video?",
+  "new": "What adjustments are made to the camera's placement throughout the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q8",
+  "index": 298,
+  "old": "What kind of camera transitions are used in the video?",
+  "new": "What types of camera movements are utilized in the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q8",
+  "index": 0,
+  "old": "How does the camera position change in the video?",
+  "new": "What adjustments are made to the camera's placement throughout the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q8",
+  "index": 365,
+  "old": "How does the viewpoint of the camera shift in the video?",
+  "new": "What changes in the camera's perspective throughout the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q8",
+  "index": 250,
+  "old": "How does the camera move in the video?",
+  "new": "What is the movement pattern of the camera in the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q8",
+  "index": 178,
+  "old": "How does the camera position change in the video?",
+  "new": "What adjustments are made to the camera's placement throughout the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q8",
+  "index": 239,
+  "old": "How does the camera perspective change in the video?",
+  "new": "What modifications occur to the viewpoint of the camera throughout the video?",
+  "routed": "q8",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q9",
+  "index": 48,
+  "old": "You are provided with five video clips, the first of which is a replay clip. Please determine which of the following four video clips it is a replay of?",
+  "new": "You are given five video clips, with the first being a replay clip. Identify which of these four other video clips it is a replay of.",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q9",
+  "index": 138,
+  "old": "The first video clip in the list is a replay. Please determine which of the next four clips is the one being played again.",
+  "new": "Which of the subsequent four video clips is being replayed?",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 161,
+  "old": "There are five video clips in total. The first clip is a replay. Which of the other four clips is the one it is replaying?",
+  "new": "There are five video clips altogether. The initial clip is a replay. Which of the remaining four clips is being replayed?",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q9",
+  "index": 173,
+  "old": "You are given five video clips, with the first being a replay. Your task is to identify the clip being replayed from the next four.",
+  "new": "You are provided with five video segments, where the initial segment is a replay. Your assignment is to determine which of the remaining four clips corresponds to the replay.",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 99,
+  "old": "In the set of five video clips, the first clip is a replay. Identify which of the remaining four clips it replays.",
+  "new": "In the sequence of five video clips, the initial clip serves as a replay. Determine which of the other four clips corresponds to this replay.",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q9",
+  "index": 396,
+  "old": "Among the five video clips provided, the first one is a replay. Can you figure out which of the following four clips is the original?",
+  "new": "Among the five video clips presented, the first one is a replay. Could you determine which of these four clips represents the original footage?",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 324,
+  "old": "You are given five clips, with the first one being a replay. Which of the following four clips corresponds to the replay?",
+  "new": "You are provided with five video clips, where the initial clip is a replay. Which of these four subsequent clips matches the replay?",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 67,
+  "old": "In the set of five video clips, the first clip is a replay. Identify which of the remaining four clips it replays.",
+  "new": "In the sequence of five video clips, the initial clip serves as a replay. Determine which of the other four clips corresponds to this replay.",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 59,
+  "old": "You are provided with five video clips, the first of which is a replay clip. Please determine which of the following four video clips it is a replay of?",
+  "new": "You are given five video clips, with the first being a replay clip. Identify which of these four other video clips it is a replay of.",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 237,
+  "old": "You are given five clips, with the first one being a replay. Which of the following four clips corresponds to the replay?",
+  "new": "You are provided with five video clips, where the initial clip is a replay. Which of these four subsequent clips matches the replay?",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 366,
+  "old": "You have five video clips. The first one is a replay. Identify which of the next four clips is the one being replayed.",
+  "new": "You possess five video sequences. The initial sequence is a replay. Determine which of the subsequent four sequences corresponds to the replay.",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 351,
+  "old": "You have five video clips. The first one is a replay. Identify which of the next four clips is the one being replayed.",
+  "new": "You possess five video sequences. The initial sequence is a replay. Determine which of the subsequent four sequences corresponds to the replay.",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 80,
+  "old": "You are given five clips, with the first one being a replay. Which of the following four clips corresponds to the replay?",
+  "new": "You are provided with five video clips, where the initial clip is a replay. Which of these four subsequent clips matches the replay?",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 228,
+  "old": "The first video clip is a replay. From the remaining four clips, please choose which one is being replayed.",
+  "new": "Which of the four remaining video clips is being replayed?",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 218,
+  "old": "From the five video clips given, the first one is a replay. Your job is to select which of the next four clips it is a replay of.",
+  "new": "From the five video clips provided, identify which of the subsequent four clips corresponds to a replay of the initial one.",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q9",
+  "index": 88,
+  "old": "The first video clip in the list is a replay. Please determine which of the next four clips is the one being played again.",
+  "new": "Which of the subsequent four video clips is being replayed?",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 246,
+  "old": "You are provided with five video clips, the first of which is a replay clip. Please determine which of the following four video clips it is a replay of?",
+  "new": "You are given five video clips, with the first being a replay clip. Identify which of these four other video clips it is a replay of.",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 393,
+  "old": "From the five video clips given, the first one is a replay. Your job is to select which of the next four clips it is a replay of.",
+  "new": "From the five video clips provided, identify which of the subsequent four clips corresponds to a replay of the initial one.",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 149,
+  "old": "You are provided with five video clips, the first of which is a replay clip. Please determine which of the following four video clips it is a replay of?",
+  "new": "You are given five video clips, with the first being a replay clip. Identify which of these four other video clips it is a replay of.",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 216,
+  "old": "You are provided with five video clips, the first of which is a replay clip. Please determine which of the following four video clips it is a replay of?",
+  "new": "You are given five video clips, with the first being a replay clip. Identify which of these four other video clips it is a replay of.",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 320,
+  "old": "Among the five video clips provided, the first one is a replay. Can you figure out which of the following four clips is the original?",
+  "new": "Among the five video clips presented, the first one is a replay. Could you determine which of these four clips represents the original footage?",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q9",
+  "index": 283,
+  "old": "In the set of five video clips, the first clip is a replay. Identify which of the remaining four clips it replays.",
+  "new": "In the sequence of five video clips, the initial clip serves as a replay. Determine which of the other four clips corresponds to this replay.",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q9",
+  "index": 236,
+  "old": "You are given five video clips, with the first being a replay. Your task is to identify the clip being replayed from the next four.",
+  "new": "You are provided with five video segments, where the initial segment is a replay. Your assignment is to determine which of the remaining four clips corresponds to the replay.",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 175,
+  "old": "You are given five video clips, with the first being a replay. Your task is to identify the clip being replayed from the next four.",
+  "new": "You are provided with five video segments, where the initial segment is a replay. Your assignment is to determine which of the remaining four clips corresponds to the replay.",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 217,
+  "old": "You are given five clips, with the first one being a replay. Which of the following four clips corresponds to the replay?",
+  "new": "You are provided with five video clips, where the initial clip is a replay. Which of these four subsequent clips matches the replay?",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 129,
+  "old": "The first video clip in the list is a replay. Please determine which of the next four clips is the one being played again.",
+  "new": "Which of the subsequent four video clips is being replayed?",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 132,
+  "old": "Out of the five video clips provided, the first is a replay. Can you determine which one of the following four clips is being replayed?",
+  "new": "Among the five video clips given, the first one is a replay. Which of the following four clips is being replayed?",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 131,
+  "old": "You have five video clips. The first one is a replay. Identify which of the next four clips is the one being replayed.",
+  "new": "You possess five video sequences. The initial sequence is a replay. Determine which of the subsequent four sequences corresponds to the replay.",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q9",
+  "index": 26,
+  "old": "Among the five video clips provided, the first one is a replay. Can you figure out which of the following four clips is the original?",
+  "new": "Among the five video clips presented, the first one is a replay. Could you determine which of these four clips represents the original footage?",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 194,
+  "old": "Among the five video clips provided, the first one is a replay. Can you figure out which of the following four clips is the original?",
+  "new": "Among the five video clips presented, the first one is a replay. Could you determine which of these four clips represents the original footage?",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 344,
+  "old": "You have five video clips. The first one is a replay. Identify which of the next four clips is the one being replayed.",
+  "new": "You possess five video sequences. The initial sequence is a replay. Determine which of the subsequent four sequences corresponds to the replay.",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 51,
+  "old": "You are provided with five video clips, the first of which is a replay clip. Please determine which of the following four video clips it is a replay of?",
+  "new": "You are given five video clips, with the first being a replay clip. Identify which of these four other video clips it is a replay of.",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 64,
+  "old": "The first video clip is a replay. From the remaining four clips, please choose which one is being replayed.",
+  "new": "Which of the four remaining video clips is being replayed?",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 91,
+  "old": "The first video clip is a replay. From the remaining four clips, please choose which one is being replayed.",
+  "new": "Which of the four remaining video clips is being replayed?",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q9",
+  "index": 104,
+  "old": "You are given five video clips, with the first being a replay. Your task is to identify the clip being replayed from the next four.",
+  "new": "You are provided with five video segments, where the initial segment is a replay. Your assignment is to determine which of the remaining four clips corresponds to the replay.",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 29,
+  "old": "The first video clip in the list is a replay. Please determine which of the next four clips is the one being played again.",
+  "new": "Which of the subsequent four video clips is being replayed?",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 287,
+  "old": "Among the five video clips provided, the first one is a replay. Can you figure out which of the following four clips is the original?",
+  "new": "Among the five video clips presented, the first one is a replay. Could you determine which of these four clips represents the original footage?",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 380,
+  "old": "There are five video clips in total. The first clip is a replay. Which of the other four clips is the one it is replaying?",
+  "new": "There are five video clips altogether. The initial clip is a replay. Which of the remaining four clips is being replayed?",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 206,
+  "old": "The first video clip is a replay. From the remaining four clips, please choose which one is being replayed.",
+  "new": "Which of the four remaining video clips is being replayed?",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q9",
+  "index": 378,
+  "old": "In the set of five video clips, the first clip is a replay. Identify which of the remaining four clips it replays.",
+  "new": "In the sequence of five video clips, the initial clip serves as a replay. Determine which of the other four clips corresponds to this replay.",
+  "routed": "q9",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 346,
+  "old": "Classify the football action in this video.",
+  "new": "Identify the type of football play occurring in this video.",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q10",
+  "index": 322,
+  "old": "Could you assign a category to the football event in this video?",
+  "new": "Could you categorize the football event depicted in this video?",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 992,
+  "old": "What kind of football event is depicted in this video?",
+  "new": "What type of football activity is shown in this video?",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 860,
+  "old": "What type of football match event is recorded in this video?",
+  "new": "What kind of football competition is captured in this video?",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 620,
+  "old": "What type of football match event is recorded in this video?",
+  "new": "What kind of football competition is captured in this video?",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 845,
+  "old": "Choose a category for the football scene in this video.",
+  "new": "Select a category for the football content in this video.",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 412,
+  "old": "Classify the football action in this video.",
+  "new": "Identify the type of football play occurring in this video.",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q10",
+  "index": 666,
+  "old": "What kind of football event is depicted in this video?",
+  "new": "What type of football activity is shown in this video?",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 722,
+  "old": "Provide a classification for the football event in this video.",
+  "new": "Identify the type of football activity depicted in this video.",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 968,
+  "old": "What kind of football event is depicted in this video?",
+  "new": "What type of football activity is shown in this video?",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 944,
+  "old": "Could you assign a category to the football event in this video?",
+  "new": "Could you categorize the football event depicted in this video?",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 526,
+  "old": "Choose a category for the football scene in this video.",
+  "new": "Select a category for the football content in this video.",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 129,
+  "old": "What category does the football action in this video fall under?",
+  "new": "What genre or type of football content is featured in this video?",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 484,
+  "old": "Can you classify the football event in this video?",
+  "new": "Can you categorize the football activity depicted in this video?",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 901,
+  "old": "Which category does the football event in this clip belong to?",
+  "new": "What is the category of the football event featured in this video?",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 183,
+  "old": "What type of football event is shown in this video?",
+  "new": "What kind of football activity is depicted in this video?",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 716,
+  "old": "Please label the football event in this video with a category.",
+  "new": "Please categorize the football event depicted in this video into an appropriate category.",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 855,
+  "old": "Assign a category to the football event in this video.",
+  "new": "Classify the football activity depicted in this video into an appropriate category.",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q10",
+  "index": 927,
+  "old": "What category does the football action in this video fall under?",
+  "new": "What genre or type of football content is featured in this video?",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 496,
+  "old": "Assign an appropriate category to the football event in this video.",
+  "new": "Determine the correct classification for the football activity depicted in this video.",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 291,
+  "old": "Identify and classify the football event in this video.",
+  "new": "Identify and categorize the football activity depicted in this video.",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 353,
+  "old": "Provide a classification for the football event in this video.",
+  "new": "Identify the type of football activity depicted in this video.",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 27,
+  "old": "Classify the football action in this video.",
+  "new": "Identify the type of football play occurring in this video.",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 406,
+  "old": "Classify the football action in this video.",
+  "new": "Identify the type of football play occurring in this video.",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 185,
+  "old": "What type of football event is shown in this video?",
+  "new": "What kind of football activity is depicted in this video?",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 327,
+  "old": "What type of football event is shown in this video?",
+  "new": "What kind of football activity is depicted in this video?",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 547,
+  "old": "Classify the football action in this video.",
+  "new": "Identify the type of football play occurring in this video.",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 264,
+  "old": "What category can the football event in this video be classified into?",
+  "new": "What type of football activity does this video depict?",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 493,
+  "old": "What category should the football event in this clip be marked as?",
+  "new": "What is the appropriate classification for the football event depicted in this video?",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 628,
+  "old": "Provide a classification for the football event in this video.",
+  "new": "Identify the type of football activity depicted in this video.",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 97,
+  "old": "Please categorize the football event in this video.",
+  "new": "Please sort the football event in this video into its appropriate category.",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 157,
+  "old": "What kind of football event is depicted in this video?",
+  "new": "What type of football activity is shown in this video?",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 229,
+  "old": "Which category should the football event in this video be placed in?",
+  "new": "What category would you classify this football event as?",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 326,
+  "old": "Which category does the football event in this clip belong to?",
+  "new": "What is the category of the football event featured in this video?",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 74,
+  "old": "Provide a classification for the football event in this video.",
+  "new": "Identify the type of football activity depicted in this video.",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q10",
+  "index": 839,
+  "old": "Can you classify the football event in this video?",
+  "new": "Can you categorize the football activity depicted in this video?",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 935,
+  "old": "Could you assign a category to the football event in this video?",
+  "new": "Could you categorize the football event depicted in this video?",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 781,
+  "old": "Assign a category to the football event in this video.",
+  "new": "Classify the football activity depicted in this video into an appropriate category.",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 881,
+  "old": "Classify the football action in this video.",
+  "new": "Identify the type of football play occurring in this video.",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q10",
+  "index": 994,
+  "old": "What kind of football event is depicted in this video?",
+  "new": "What type of football activity is shown in this video?",
+  "routed": "q10",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 108,
+  "old": "Write commentary content for this football video.",
+  "new": "Provide an analysis of the football video.",
+  "routed": "q11",
+  "route": "options",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 47,
+  "old": "Describe the content of this football video.",
+  "new": "What is the subject matter of this football video?",
+  "routed": "q11",
+  "route": "options",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 177,
+  "old": "Generate a commentary for this football video.",
+  "new": "Create a narration for this football video.",
+  "routed": "q11",
+  "route": "options",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 929,
+  "old": "Generate a commentary note for this football video clip.",
+  "new": "Provide an analysis comment for this football video segment.",
+  "routed": "q11",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 282,
+  "old": "Generate a comment for this football video.",
+  "new": "Compose a remark for this football video.",
+  "routed": "q11",
+  "route": "options",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 884,
+  "old": "Generate commentary content for this football video.",
+  "new": "Create commentary text for this football video.",
+  "routed": "q11",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 837,
+  "old": "Generate commentary text for this football video.",
+  "new": "Create a commentary script for this football video.",
+  "routed": "q11",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 170,
+  "old": "Create a commentary script for this football video.",
+  "new": "Write a narration script for this football video.",
+  "routed": "q11",
+  "route": "options",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q11",
+  "index": 571,
+  "old": "Generate a matching commentary for this football video.",
+  "new": "Create an equivalent narration for this football video.",
+  "routed": "q11",
+  "route": "options",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 134,
+  "old": "Write a commentary for this football video clip.",
+  "new": "Provide an analysis of this football video segment.",
+  "routed": "q11",
+  "route": "options",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 545,
+  "old": "Generate commentary content for this football video.",
+  "new": "Create commentary text for this football video.",
+  "routed": "q11",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 164,
+  "old": "Write a commentary text description for this football video.",
+  "new": "Provide an analysis of the football video.",
+  "routed": "q11",
+  "route": "options",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q11",
+  "index": 64,
+  "old": "Generate a commentary note for this football video clip.",
+  "new": "Provide an analysis comment for this football video segment.",
+  "routed": "q11",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 41,
+  "old": "Generate a comment for this football video.",
+  "new": "Compose a remark for this football video.",
+  "routed": "q11",
+  "route": "options",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 291,
+  "old": "Generate commentary text for this football video.",
+  "new": "Create a commentary script for this football video.",
+  "routed": "q11",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q11",
+  "index": 273,
+  "old": "Write a commentary for this football video clip.",
+  "new": "Provide an analysis of this football video segment.",
+  "routed": "q11",
+  "route": "options",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 176,
+  "old": "Generate a commentary note for this football video clip.",
+  "new": "Provide an analysis comment for this football video segment.",
+  "routed": "q11",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 698,
+  "old": "Generate a commentary annotation for this football video clip.",
+  "new": "Create an analysis commentary for this football video segment.",
+  "routed": "q11",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 316,
+  "old": "Generate a commentary annotation for this football video clip.",
+  "new": "Create an analysis commentary for this football video segment.",
+  "routed": "q11",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 90,
+  "old": "Write a commentary text description for this football video.",
+  "new": "Provide an analysis of the football video.",
+  "routed": "q11",
+  "route": "options",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 994,
+  "old": "Generate commentary content for this football video clip.",
+  "new": "Create commentary text for this football video segment.",
+  "routed": "q11",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 42,
+  "old": "Generate a matching commentary for this football video.",
+  "new": "Create an equivalent narration for this football video.",
+  "routed": "q11",
+  "route": "options",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q11",
+  "index": 788,
+  "old": "Provide a commentary text for this football video.",
+  "new": "Write an analysis of this football video.",
+  "routed": "q11",
+  "route": "options",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q11",
+  "index": 623,
+  "old": "Write a matching commentary text for this football video.",
+  "new": "Craft an equivalent commentary script for this football video.",
+  "routed": "q11",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q11",
+  "index": 910,
+  "old": "Generate a matching comment for this football video.",
+  "new": "Create an appropriate commentary for this football video.",
+  "routed": "q11",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 147,
+  "old": "Generate a commentary annotation for this football video clip.",
+  "new": "Create an analysis commentary for this football video segment.",
+  "routed": "q11",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 377,
+  "old": "Write a commentary for this football video clip.",
+  "new": "Provide an analysis of this football video segment.",
+  "routed": "q11",
+  "route": "options",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 104,
+  "old": "Generate a commentary script for this football video clip.",
+  "new": "Create a narration script for this football video segment.",
+  "routed": "q11",
+  "route": "options",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q11",
+  "index": 329,
+  "old": "Write a matching commentary text for this football video.",
+  "new": "Craft an equivalent commentary script for this football video.",
+  "routed": "q11",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q11",
+  "index": 106,
+  "old": "Generate a commentary content description for this football video clip.",
+  "new": "Create a detailed narrative summary of this football video sequence.",
+  "routed": "q11",
+  "route": "options",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 943,
+  "old": "Describe the content of this football video.",
+  "new": "What is the subject matter of this football video?",
+  "routed": "q11",
+  "route": "options",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 439,
+  "old": "Write a commentary text description for this football video clip.",
+  "new": "Provide an analysis of the football video clip.",
+  "routed": "q11",
+  "route": "options",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 514,
+  "old": "Generate commentary text for this football video.",
+  "new": "Create a commentary script for this football video.",
+  "routed": "q11",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q11",
+  "index": 636,
+  "old": "Create a commentary script for this football video.",
+  "new": "Write a narration script for this football video.",
+  "routed": "q11",
+  "route": "options",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 263,
+  "old": "Generate a commentary script for this football video clip.",
+  "new": "Create a narration script for this football video segment.",
+  "routed": "q11",
+  "route": "options",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q11",
+  "index": 730,
+  "old": "Generate commentary lines for this football video clip.",
+  "new": "Create commentary remarks for this football video segment.",
+  "routed": "q11",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 682,
+  "old": "Generate a matching commentary for this football video.",
+  "new": "Create an equivalent narration for this football video.",
+  "routed": "q11",
+  "route": "options",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 67,
+  "old": "Describe the content of this football video.",
+  "new": "What is the subject matter of this football video?",
+  "routed": "q11",
+  "route": "options",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 867,
+  "old": "Write a comment for this football video clip.",
+  "new": "Compose a remark for this football video segment.",
+  "routed": "q11",
+  "route": "options",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q11",
+  "index": 296,
+  "old": "Write a commentary description for this football video.",
+  "new": "Provide an analysis of this football video.",
+  "routed": "q11",
+  "route": "options",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q13",
+  "index": 192,
+  "old": "In the video, which color jersey produces the cross that leads to a corner kick?",
+  "new": "What is the color of the jersey worn by the player who kicks the cross that results in a corner kick?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": true
+ },
+ {
+  "task": "q13",
+  "index": 270,
+  "old": "In the video, which color jersey intercepts the corner kick?",
+  "new": "What is the color of the jersey that intercepts the corner kick in the video?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q13",
+  "index": 664,
+  "old": "In the video, which color jersey takes the shot that results in a corner?",
+  "new": "What is the color of the jersey worn by the player who kicks the ball to score a corner kick?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q13",
+  "index": 546,
+  "old": "In the video, which color jersey attempts the through ball that fails to connect?",
+  "new": "Which player in the video wears a jersey that attempts a through ball but misses?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q13",
+  "index": 350,
+  "old": "In the video, which color jersey commits the foul?",
+  "new": "Which player in the video wears the jersey that results in the foul being called?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q13",
+  "index": 620,
+  "old": "In the video, which color jersey wins the corner after the slalom run?",
+  "new": "What is the color of the jersey that wins the corner after completing the slalom in the video?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q13",
+  "index": 660,
+  "old": "In the video, which color jersey is pulled to cause the foul?",
+  "new": "What color jersey is responsible for the foul in the video?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q13",
+  "index": 676,
+  "old": "In the video, which color jersey intercepts the corner kick?",
+  "new": "What is the color of the jersey that intercepts the corner kick in the video?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": false
+ },
+ {
+  "task": "q13",
+  "index": 428,
+  "old": "In the video, which color jersey takes the shot from the corner that goes over the bar?",
+  "new": "Which player in the video wears the jersey that kicks the ball from the corner kick that clears the goal?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q13",
+  "index": 123,
+  "old": "In the video, which color jersey heads the corner kick out of the penalty area?",
+  "new": "What is the color of the jersey worn by the player who kicks the corner ball out of the penalty box in the video?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q13",
+  "index": 524,
+  "old": "In the video, which color jersey takes the mid-range shot that goes over the crossbar?",
+  "new": "Which player in the video wears a jersey that successfully kicks a mid-range shot that clears the crossbar?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q13",
+  "index": 503,
+  "old": "In the video, which color jersey is the player wearing who was caught offside?",
+  "new": "What is the color of the jersey worn by the player who was flagged for being offside in the video?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q13",
+  "index": 149,
+  "old": "In the video, which color jersey exchanges short passes to create a shooting opportunity?",
+  "new": "In the video, what color jersey is used for passing to set up a scoring opportunity?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q13",
+  "index": 569,
+  "old": "What color jersey is worn by the player being substituted in the video?",
+  "new": "Which team's jersey is worn by the player who is being replaced in the video?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q13",
+  "index": 42,
+  "old": "In the video showing short passes to create a shooting chance, which color jersey is the attacking team wearing?",
+  "new": "What is the color of the jersey worn by the attacking team in the video demonstrating short passes for a scoring opportunity?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": false
+ },
+ {
+  "task": "q13",
+  "index": 585,
+  "old": "In the video showing a substitution, which color jersey is the player coming off the field wearing?",
+  "new": "What color jersey is the player leaving the field wearing in the substitution scene of the football video?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q13",
+  "index": 506,
+  "old": "In the video showing a VAR review decision, which color jersey does the player receiving the yellow card wear?",
+  "new": "What is the color of the jersey worn by the player who receives the yellow card in the video featuring a VAR review decision?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": false
+ },
+ {
+  "task": "q13",
+  "index": 118,
+  "old": "In the video, which color jersey fails to deliver the pass into the box?",
+  "new": "Which player in the video wears a jersey that does not successfully throw the ball into the goal area?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q13",
+  "index": 624,
+  "old": "In the video, which color jersey has the shot blocked after reaching the rebound first?",
+  "new": "Which player's jersey is the one that gets the shot blocked when it rebounds?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q13",
+  "index": 119,
+  "old": "In the video, which color jersey heads the ball towards the goal from the corner?",
+  "new": "What is the color of the jersey that kicks the ball into the goal from the corner in the video?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q13",
+  "index": 257,
+  "old": "In the video, which color jersey strikes the rebound towards the target?",
+  "new": "What color jersey hits the rebound towards the goal?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q13",
+  "index": 396,
+  "old": "In the substitution video, which color jersey is worn by the player being replaced?",
+  "new": "What is the color of the jersey worn by the player who is being substituted in the substitution video?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q13",
+  "index": 183,
+  "old": "In the video, which color jersey drills the ball toward the goal?",
+  "new": "What color jersey is seen dribbling the ball towards the goal in the video?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q13",
+  "index": 87,
+  "old": "In the video showing a corner kick, which color jersey takes the short pass?",
+  "new": "In the video demonstrating a corner kick, which team's player receives the short pass?",
+  "routed": "q13",
+  "route": "llm",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q13",
+  "index": 451,
+  "old": "In the video, which color jersey clears the corner kick?",
+  "new": "Which team's jersey is seen clearing the corner kick in the video?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q13",
+  "index": 678,
+  "old": "In the video, which color jersey takes the corner kick after the defensive clearance?",
+  "new": "What is the color of the jersey worn by the player who takes the corner kick following the successful defensive clearance in the video?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q13",
+  "index": 329,
+  "old": "In the video showing a penalty award, which color jersey commits the foul?",
+  "new": "Which player in the penalty award video wears a jersey of what color?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q13",
+  "index": 497,
+  "old": "In the video showing a corner kick, which color jersey prepares to deliver the ball into the box?",
+  "new": "In the video demonstrating a corner kick, which team's jersey is positioned to send the ball towards the goal area?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q13",
+  "index": 129,
+  "old": "In the video showing a yellow card offense, which color jersey makes the foul?",
+  "new": "What color jersey is associated with the foul in the video featuring a yellow card offense?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q13",
+  "index": 11,
+  "old": "In the video, which color jersey takes the short corner kick?",
+  "new": "What is the color of the jersey worn by the player who takes the short corner kick in the video?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": false
+ },
+ {
+  "task": "q13",
+  "index": 351,
+  "old": "In the video, which color jersey takes the long-range shot?",
+  "new": "What is the color of the jersey that takes the long-distance kick in the video?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q13",
+  "index": 510,
+  "old": "In the video showing coordinated passing, which color jersey maintains possession?",
+  "new": "Which team's jersey is in possession during the coordinated passing sequence in the video?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q13",
+  "index": 302,
+  "old": "In the video showing a VAR review, which color jersey do the protesting players wear?",
+  "new": "What is the color of the jerseys worn by the players who are protesting in the video featuring a VAR review?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q13",
+  "index": 659,
+  "old": "In the video, which color jersey takes the corner with a short pass?",
+  "new": "What is the color of the jersey that receives the corner kick with a quick pass in the video?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q13",
+  "index": 645,
+  "old": "In the video, which color jersey is shown receiving a yellow card?",
+  "new": "What color jersey is highlighted in the video for receiving a yellow card?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q13",
+  "index": 383,
+  "old": "In the video showing a yellow card offense, which color jersey commits the foul?",
+  "new": "In the video demonstrating a yellow card offense, which team's player is responsible for committing the foul?",
+  "routed": "q14",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q13",
+  "index": 675,
+  "old": "In the video, which color jersey intercepts the corner kick?",
+  "new": "What is the color of the jersey that intercepts the corner kick in the video?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q13",
+  "index": 239,
+  "old": "In the video, which color jersey intercepts the corner kick?",
+  "new": "What is the color of the jersey that intercepts the corner kick in the video?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q13",
+  "index": 488,
+  "old": "In the video, which color jersey is heading to take the corner kick?",
+  "new": "What is the color of the jersey being used for the corner kick in the video?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": true
+ },
+ {
+  "task": "q13",
+  "index": 269,
+  "old": "In the video, which color jersey delivers the free kick into the penalty area?",
+  "new": "What is the color of the jersey that kicks the free kick into the penalty area in the video?",
+  "routed": "q13",
+  "route": "rule",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q14",
+  "index": 155,
+  "old": "This football foul has been captured from 2 different angles: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.4x speed. Was there an effort to control the ball?",
+  "new": "This football foul has been captured from 2 different angles: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.4x speed. Was there any attempt to manage possession?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q14",
+  "index": 261,
+  "old": "There are 2 videos of the same football foul from different angles, respectively: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 3.4x speed. Did this foul involve any physical interaction?",
+  "new": "There are 2 videos of the same football foul from different angles, respectively: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 3.4x speed. Was there any physical contact in this foul?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q14",
+  "index": 93,
+  "old": "There are 2 video replays of the same foul, including: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.8x speed. Did the player attempt to play the ball?",
+  "new": "There are 2 video replays of the same foul, including: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.8x speed. Was the player trying to interact with the ball?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q14",
+  "index": 60,
+  "old": "There are 3 video replays of the same foul, including: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.0x speed, Close-up player or field referee lens at 2.4x speed. Did this foul involve any physical interaction?",
+  "new": "There are 3 video replays of the same foul, including: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.0x speed, Close-up player or field referee lens at 2.4x speed. Was there any physical contact in this foul?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q14",
+  "index": 221,
+  "old": "There are 2 videos of the same football foul from different angles, respectively: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.8x speed. Did the offence involve deliberate hand contact?",
+  "new": "There are 2 videos of the same football foul from different angles, respectively: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.8x speed. Was there intentional hand contact by the offense?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q14",
+  "index": 270,
+  "old": "There are 2 videos of the same football foul from different angles, respectively: Main camera center lens at 1.0x speed, Main behind the goal lens at 1.0x speed. Which body part was involved in this foul?",
+  "new": "There are 2 videos of the same football foul from different angles, respectively: Main camera center lens at 1.0x speed, Main behind the goal lens at 1.0x speed. What body part caused this foul?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q14",
+  "index": 5,
+  "old": "2 multi-angle videos of a football foul are available, each showing: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.6x speed. Which part of the player's body was involved?",
+  "new": "2 multi-angle videos of a football foul are available, each showing: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.6x speed. What body part was affected?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q14",
+  "index": 185,
+  "old": "There are 3 videos of the same football foul from different angles, respectively: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.2x speed, Close-up player or field referee lens at 3.0x speed. Did the offence occur in the attacking phase?",
+  "new": "There are 3 videos of the same football foul from different angles, respectively: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.2x speed, Close-up player or field referee lens at 3.0x speed. Was the offense executed during the offensive play?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": false
+ },
+ {
+  "task": "q14",
+  "index": 34,
+  "old": "The foul has been recorded from 2 different perspectives: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.4x speed. Is this a multi-foul situation?",
+  "new": "The foul has been recorded from 2 different perspectives: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.4x speed. Is there a foul play involved in this scenario?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q14",
+  "index": 127,
+  "old": "The foul has been recorded from 2 different perspectives: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.9x speed. What part of the body was affected by this offence?",
+  "new": "The foul has been recorded from 2 different perspectives: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.9x speed. Which body part was impacted by this offense?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": false
+ },
+ {
+  "task": "q14",
+  "index": 23,
+  "old": "There are 2 videos of the same football foul from different angles, respectively: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.4x speed. What's the severity level of this offence?",
+  "new": "There are 2 videos of the same football foul from different angles, respectively: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.4x speed. What is the severity rating for this offense?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q14",
+  "index": 216,
+  "old": "There are 3 video replays of the same foul, including: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.8x speed, Close-up player or field referee lens at 3.6x speed. Are there concurrent offences in this play?",
+  "new": "There are 3 video replays of the same foul, including: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.8x speed, Close-up player or field referee lens at 3.6x speed. Is there any simultaneous infractions in this sequence?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": false,
+  "new_correct": true
+ },
+ {
+  "task": "q14",
+  "index": 104,
+  "old": "The foul has been recorded from 2 different perspectives: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.6x speed. Did the player try to reach the ball?",
+  "new": "The foul has been recorded from 2 different perspectives: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.6x speed. Was the player attempting to catch the ball?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": false
+ },
+ {
+  "task": "q14",
+  "index": 54,
+  "old": "There are 2 videos of the same football foul from different angles, respectively: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 3.0x speed. Did this foul involve a handball?",
+  "new": "There are 2 videos of the same football foul from different angles, respectively: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 3.0x speed. Was there a foul committed due to a handball?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": false
+ },
+ {
+  "task": "q14",
+  "index": 90,
+  "old": "There are 2 videos of the same football foul from different angles, respectively: Main camera center lens at 1.0x speed, Close-up behind the goal lens at 1.0x speed. Did this foul involve any physical interaction?",
+  "new": "There are 2 videos of the same football foul from different angles, respectively: Main camera center lens at 1.0x speed, Close-up behind the goal lens at 1.0x speed. Was there any physical contact in this foul?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q14",
+  "index": 194,
+  "old": "4 camera angles captured this football foul: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.2x speed, Close-up player or field referee lens at 2.6x speed, Close-up player or field referee lens at 2.6x speed. Did the player attempt to play the ball?",
+  "new": "4 camera angles captured this football foul: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.2x speed, Close-up player or field referee lens at 2.6x speed, Close-up player or field referee lens at 2.6x speed. Was the player trying to interact with the ball?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q14",
+  "index": 133,
+  "old": "2 multi-angle videos of a football foul are available, each showing: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.6x speed. What is the specific foul type shown?",
+  "new": "2 multi-angle videos of a football foul are available, each showing: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.6x speed. What is the exact rule violation depicted?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q14",
+  "index": 243,
+  "old": "There are 2 video replays of the same foul, including: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.6x speed. Did the player attempt to play the ball?",
+  "new": "There are 2 video replays of the same foul, including: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.6x speed. Was the player trying to interact with the ball?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q14",
+  "index": 108,
+  "old": "3 camera angles captured this football foul: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.8x speed, Close-up player or field referee lens at 3.4x speed. Was there contact between the players in this foul?",
+  "new": "3 camera angles captured this football foul: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.8x speed, Close-up player or field referee lens at 3.4x speed. Did the players make physical contact during this foul?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q14",
+  "index": 265,
+  "old": "The foul has been recorded from 2 different perspectives: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.2x speed. Where exactly on the upper body did the foul occur?",
+  "new": "The foul has been recorded from 2 different perspectives: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.2x speed. What specific part of the player's upper body was fouled?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q14",
+  "index": 135,
+  "old": "The foul has been recorded from 2 different perspectives: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.8x speed. Does this involve multiple fouls?",
+  "new": "The foul has been recorded from 2 different perspectives: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.8x speed. Is there more than one foul involved?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q14",
+  "index": 235,
+  "old": "3 multi-angle videos of a football foul are available, each showing: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.0x speed, Close-up behind the goal lens at 2.2x speed. Was the foul committed during an attacking move?",
+  "new": "3 multi-angle videos of a football foul are available, each showing: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.0x speed, Close-up behind the goal lens at 2.2x speed. Was the foul made while the team was advancing in attack?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": false,
+  "new_correct": true
+ },
+ {
+  "task": "q14",
+  "index": 253,
+  "old": "This football foul has been captured from 3 different angles: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.4x speed, Close-up player or field referee lens at 2.4x speed. Are there several offences in this incident?",
+  "new": "This football foul has been captured from 3 different angles: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.4x speed, Close-up player or field referee lens at 2.4x speed. Is there more than one offense in this situation?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": false,
+  "new_correct": true
+ },
+ {
+  "task": "q14",
+  "index": 245,
+  "old": "This football foul has been captured from 2 different angles: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.8x speed. Did the offence happen while attacking?",
+  "new": "This football foul has been captured from 2 different angles: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.8x speed. Was the offense committed during an attack?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q14",
+  "index": 52,
+  "old": "2 multi-angle videos of a football foul are available, each showing: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.4x speed. Did the offence happen while attacking?",
+  "new": "2 multi-angle videos of a football foul are available, each showing: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.4x speed. Was the offense committed during an attack?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q14",
+  "index": 117,
+  "old": "There are 2 videos of the same football foul from different angles, respectively: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.4x speed. Did the foul occur due to a handball?",
+  "new": "There are 2 videos of the same football foul from different angles, respectively: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.4x speed. Was the foul caused by a player's hand?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q14",
+  "index": 294,
+  "old": "There are 2 video replays of the same foul, including: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 4.4x speed. Was the player trying to get the ball?",
+  "new": "There are 2 video replays of the same foul, including: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 4.4x speed. Was the player attempting to secure possession of the ball?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q14",
+  "index": 165,
+  "old": "There are 2 video replays of the same foul, including: Main camera center lens at 1.0x speed, Close-up behind the goal lens at 1.8x speed. Which body zone was the point of contact?",
+  "new": "There are 2 video replays of the same foul, including: Main camera center lens at 1.0x speed, Close-up behind the goal lens at 1.8x speed. What body part made contact in the play?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q14",
+  "index": 280,
+  "old": "There are 2 video replays of the same foul, including: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.4x speed. What kind of foul action is being committed?",
+  "new": "There are 2 video replays of the same foul, including: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.4x speed. What type of rule violation is occurring?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q14",
+  "index": 1,
+  "old": "The foul has been recorded from 3 different perspectives: Main camera center lens at 1.0x speed, Main behind the goal lens at 1.4x speed, Close-up player or field referee lens at 1.8x speed. Did this foul involve a handball?",
+  "new": "The foul has been recorded from 3 different perspectives: Main camera center lens at 1.0x speed, Main behind the goal lens at 1.4x speed, Close-up player or field referee lens at 1.8x speed. Was there a foul committed due to a handball?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q14",
+  "index": 236,
+  "old": "There are 2 videos of the same football foul from different angles, respectively: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.2x speed. What upper body zone was involved in the offence?",
+  "new": "There are 2 videos of the same football foul from different angles, respectively: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.2x speed. Which part of the body was used in the offensive play?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q14",
+  "index": 75,
+  "old": "The foul has been recorded from 2 different perspectives: Main camera center lens at 1.0x speed, Main behind the goal lens at 1.0x speed. Did this foul occur during an offensive play?",
+  "new": "The foul has been recorded from 2 different perspectives: Main camera center lens at 1.0x speed, Main behind the goal lens at 1.0x speed. Was this foul committed while the team was advancing in their own territory?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q14",
+  "index": 279,
+  "old": "2 multi-angle videos of a football foul are available, each showing: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.0x speed. Did the attacking move result in this foul?",
+  "new": "2 multi-angle videos of a football foul are available, each showing: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.0x speed. Was the attacking play followed by this foul?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q14",
+  "index": 62,
+  "old": "There are 2 video replays of the same foul, including: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.0x speed. Which body area was the focus of this foul?",
+  "new": "There are 2 video replays of the same foul, including: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.0x speed. What part of the body did this foul target?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q14",
+  "index": 272,
+  "old": "2 camera angles captured this football foul: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.4x speed. How severe is this football offence?",
+  "new": "2 camera angles captured this football foul: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.4x speed. What level of severity does this football infraction carry?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ },
+ {
+  "task": "q14",
+  "index": 86,
+  "old": "There are 3 video replays of the same foul, including: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.6x speed, Close-up player or field referee lens at 2.6x speed. Which foul type is displayed in the videos?",
+  "new": "There are 3 video replays of the same foul, including: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.6x speed, Close-up player or field referee lens at 2.6x speed. What kind of rule violation is shown in the footage?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": false,
+  "new_correct": true
+ },
+ {
+  "task": "q14",
+  "index": 182,
+  "old": "This football foul has been captured from 2 different angles: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.4x speed. Did the fouling player touch the ball?",
+  "new": "This football foul has been captured from 2 different angles: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 2.4x speed. Was the player who fouled the ball in contact with the ball?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q14",
+  "index": 144,
+  "old": "There are 3 videos of the same football foul from different angles, respectively: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.0x speed, Close-up player or field referee lens at 3.0x speed. How should this foul be categorized?",
+  "new": "There are 3 videos of the same football foul from different angles, respectively: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.0x speed, Close-up player or field referee lens at 3.0x speed. What is the appropriate classification for this foul?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": false,
+  "new_correct": true
+ },
+ {
+  "task": "q14",
+  "index": 225,
+  "old": "There are 2 videos of the same football foul from different angles, respectively: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 3.0x speed. What's the severity level of this offence?",
+  "new": "There are 2 videos of the same football foul from different angles, respectively: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 3.0x speed. What is the severity rating for this offense?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": false,
+  "new_correct": false
+ },
+ {
+  "task": "q14",
+  "index": 257,
+  "old": "There are 2 video replays of the same foul, including: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.8x speed. Did the players make contact in this foul?",
+  "new": "There are 2 video replays of the same foul, including: Main camera center lens at 1.0x speed, Close-up player or field referee lens at 1.8x speed. Was there any physical interaction between the players during this foul?",
+  "routed": "q14",
+  "route": "clips",
+  "old_correct": true,
+  "new_correct": true
+ }
+]
